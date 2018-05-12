@@ -1,0 +1,25 @@
+{
+  "name": "graphjs",
+  "version": "1.0.0",
+  "description": "A simple grammar to convert raw data into visual graphs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codezilla2018/GraphJS.git"
+  },
+  "keywords": [
+    "charts"
+  ],
+  "author": "O.I. Mudannayake <oshan.ivantha@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codezilla2018/GraphJS/issues"
+  },
+  "homepage": "https://github.com/codezilla2018/GraphJS#readme",
+  "dependencies": {
+    "npm": "^6.0.1"
+  }
+}
