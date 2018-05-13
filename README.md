@@ -1,4 +1,7 @@
 # GraphJS
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3113163f5eac4bfabeb194f96845bac0)](https://app.codacy.com/app/OshanIvantha/GraphJS?utm_source=github.com&utm_medium=referral&utm_content=OshanIvantha/GraphJS&utm_campaign=badger)
+
 oshan.ivantha@gmail.com Oshan Mudannayake OshanIvantha IA6
 
 ## Task
