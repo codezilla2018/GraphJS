@@ -25,7 +25,7 @@ collections:
   axis:
     title: Axis
     position: 4
-  data:
+  chart_data:
     title: Data
     position: 5
   grid:
@@ -95,7 +95,7 @@ defaults:
       _hide_content: true
   -
     scope:
-      type: "data"
+      type: "chart_data"
     values:
       _hide_content: true
   -
