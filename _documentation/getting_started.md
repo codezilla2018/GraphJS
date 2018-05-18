@@ -5,23 +5,17 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Welcome to our API.
+  Welcome to the GraphJS Library.
 
-  This API document is designed for those interested in developing for our platform.
+  This API document is designed for those interested in developing and using the library.
 
-  This API is still under development and will evolve.
-
-  You'll succeed if you do this.
-  {: .success }
-
-  Here's some useful information.
-  {: .info }
-
-  Something may not happen if you try and do this.
+  This library is still under development and will evolve.
   {: .warning }
 
-  Something bad will happen if you do this.
-  {: .error }
+  #### Credits
+  
+  Icons made by [Vectors Market](https://www.flaticon.com/authors/vectors-market "Vectors Market") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon") is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/ "Creative Commons BY 3.0")
+  
 left_code_blocks:
   - code_block:
     title:

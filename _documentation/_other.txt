@@ -1,0 +1,8 @@
+  You'll succeed if you do this.
+  {: .success }
+
+  Here's some useful information.
+  {: .info }
+
+  Something bad will happen if you do this.
+  {: .error }

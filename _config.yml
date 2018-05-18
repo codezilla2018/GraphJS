@@ -1,9 +1,9 @@
 # ----
 # Site
 
-title: Aviator
-description: Jekyll template for API documentation.
-url: https://example.com
+title: GraphJS Documentation
+description: GraphJS Documentation
+url: https://github.com/codezilla2018/GraphJS
 google_analytics_key:
 permalink: pretty
 
@@ -17,8 +17,48 @@ collections:
     title: Documentation
     position: 1
   api:
-    title: APIs
+    title: API
     position: 2
+  chart:
+    title: Chart
+    position: 3
+  axis:
+    title: Axis
+    position: 4
+  data:
+    title: Data
+    position: 5
+  grid:
+    title: Grid
+    position: 6
+  region:
+    title: Region
+    position: 7
+  interaction:
+    title: Interaction
+    position: 8
+  legend:
+    title: Legend
+    position: 9
+  tooltip:
+    title: Tooltip
+    position: 10
+  chart_options:
+    title: Chart Options
+    position: 11
+  line_chart_options:
+    title: Line Chart Options
+    position: 12
+  pie_chart_options:
+    title: Pie Chart Options
+    position: 13
+  transform:
+    title: Transform
+    position: 14
+  style:
+    title: Style
+    position: 15
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -43,6 +83,72 @@ defaults:
       type: "api"
     values:
       _hide_content: true
+  -
+    scope:
+      type: "chart"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "axis"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "data"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "grid"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "region"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "interaction"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "legend"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "tooltip"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "chart_options"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "line_chart_options"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "pie_chart_options"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "transform"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "style"
+    values:
+      _hide_content: true
+
 
 # -----------
 # CloudCannon

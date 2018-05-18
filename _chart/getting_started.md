@@ -1,10 +1,12 @@
 ---
-title: 
-position:
+title: Init
+position: 1
 parameters:
   - name:
     content:
-content_markdown:
+content_markdown: |-
+  Welcome to the GraphJS Library.
+
 left_code_blocks:
   - code_block:
     title:
