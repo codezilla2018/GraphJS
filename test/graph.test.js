@@ -1,4 +1,4 @@
-describe('GraphFactory', function () {
+describe('Graph', function () {
     it('should start empty', function () {
         // Test implementation goes here
     });

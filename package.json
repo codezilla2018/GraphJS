@@ -25,6 +25,7 @@
   "homepage": "https://github.com/codezilla2018/GraphJS#readme",
   "dependencies": {
     "enumify": "^1.0.4",
+    "es6-error": "^4.1.1",
     "npm": "^6.0.1"
   },
   "devDependencies": {

@@ -1,35 +1,38 @@
+import InvalidGrammarError from "../error/invalid-grammar-error";
 import ChartType from '../chart/chart-type'
 
-export default class GrammarParser{
+export default class GrammarParser {
 
     constructor(grammar) {
         this.grammar = grammar
+        this.chartType = undefined
+        this.datasource = undefined
 
-        if(GrammarParser.verifyGrammar(grammar)){
+        // Verify the basic structure of the grammar
+        if (GrammarParser.verifyStructure(grammar)) {
+            let chartTypeExtract = grammar.match(new RegExp('generate [A-Z_]+ for'))[0]
+            this.chartType = chartTypeExtract.slice(9, chartTypeExtract.length - 4)
+            this.datasource = grammar.match(new RegExp('for {.*}'))[0].slice(4)
 
-        }else{
-            // TODO : Throw error
+            // Verify the chart type and the datasource
+            if (!GrammarParser.verifyChartType(this.chartType) || !GrammarParser.verifyDatasource(this.datasource)) {
+                throw new InvalidGrammarError()
+            }
+        } else {
+            throw new InvalidGrammarError()
         }
     }
 
-    static verifyGrammar(grammar){
-        // TODO : Validate the grammar
+    static verifyStructure(grammar) {
+        return grammar.match(new RegExp('generate [A-Z_]+ for \{.*\}'))
+    }
+
+    static verifyChartType(chartType) {
+        return ChartType.enumValueOf(chartType) instanceof ChartType
+    }
+
+    static verifyDatasource(grammar) {
+        // TODO : Verify datasource
         return true
-    }
-
-    getChartType(){
-        // TODO : Return chart type
-    }
-
-    getDatasource(){
-        // TODO : Return datasource
-    }
-
-    getXLabel(){
-        // TODO : Return X label
-    }
-
-    getYLabel(){
-        // TODO : Return Y label
     }
 }

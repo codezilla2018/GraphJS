@@ -4,6 +4,6 @@ export default class Chart{
     }
 
     generateJson(){
-        // TODO : Generate JSON file
+        // Generate JSON file
     }
 }
