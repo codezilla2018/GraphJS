@@ -15,9 +15,9 @@ export default class LineChart extends Chart {
             }
         }
 
-        let x = JSON.parse(this.data)
-        for(let i in x){
-            outputJson.data.columns.push(x[i])
+        let dataJson = JSON.parse(this.data)
+        for(let i in dataJson){
+            outputJson.data.columns.push([i, ...dataJson[i]])
         }
 
         return outputJson

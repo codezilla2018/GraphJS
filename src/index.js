@@ -21,5 +21,7 @@ let sampleData = {
     ]
 }
 
-let gf = new Graph(`generate LINE_CHART for ${JSON.stringify(sampleData)}`)
+let gf = new Graph(`generate SPLINE_CHART for ${JSON.stringify(sampleData)}`)
 console.log(gf.generateJson())
+
+var chart = c3.generate(gf.generateJson())
