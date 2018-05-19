@@ -1,5 +1,3 @@
-import GrammarParser from './grammar-parser'
+import GraphFactory from './factory/graph-factory'
 
-console.log('Hello GraphJS library!')
-let gp = new GrammarParser('cat')
-gp.generateJson()
+export {GraphFactory}
