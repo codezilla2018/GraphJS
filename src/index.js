@@ -1,22 +1,5 @@
-class GrammarParser {
+import GrammarParser from './grammar-parser'
 
-    constructor() {
-
-    }
-
-    generateJson(){
-
-    }
-
-    generateCsv(){
-
-    }
-
-    generateTsv(){
-
-    }
-
-    generateTxt(){
-
-    }
-}
+console.log('Hello GraphJS library!')
+let gp = new GrammarParser('cat')
+gp.generateJson()

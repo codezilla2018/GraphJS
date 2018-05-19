@@ -2,11 +2,28 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.sass-cache" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/_axis" />
+      <excludeFolder url="file://$MODULE_DIR$/_chart" />
+      <excludeFolder url="file://$MODULE_DIR$/_chart_data" />
+      <excludeFolder url="file://$MODULE_DIR$/_chart_options" />
+      <excludeFolder url="file://$MODULE_DIR$/_grid" />
+      <excludeFolder url="file://$MODULE_DIR$/_interaction" />
+      <excludeFolder url="file://$MODULE_DIR$/_legend" />
+      <excludeFolder url="file://$MODULE_DIR$/_line_chart_options" />
+      <excludeFolder url="file://$MODULE_DIR$/_pie_chart_options" />
+      <excludeFolder url="file://$MODULE_DIR$/_region" />
+      <excludeFolder url="file://$MODULE_DIR$/_site" />
+      <excludeFolder url="file://$MODULE_DIR$/_style" />
+      <excludeFolder url="file://$MODULE_DIR$/_tooltip" />
+      <excludeFolder url="file://$MODULE_DIR$/_transform" />
+      <excludeFolder url="file://$MODULE_DIR$/images" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
+    <content url="file://$MODULE_DIR$/build" />
     <content url="file://$MODULE_DIR$/node_modules" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
