@@ -1,9 +1,9 @@
-export default class Chart{
+export default class Chart {
 
-    constructor() {
-    }
+	constructor() {
+	}
 
-    generateJson(){
-        // Generate JSON file
-    }
+	generateJson() {
+		// Generate JSON file
+	}
 }

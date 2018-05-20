@@ -1,5 +1,5 @@
-export default class CsvParser{
+export default class CsvParser {
 
-    constructor() {
-    }
+	constructor() {
+	}
 }

@@ -1,25 +1,25 @@
-import Chart from "./chart";
+import Chart from './chart'
 
 export default class LineChart extends Chart {
 
-    constructor(data) {
-        super();
+	constructor(data) {
+		super()
 
-        this.data = data
-    }
+		this.data = data
+	}
 
-    generateJson() {
-        let outputJson = {
-            "data": {
-                "columns": []
-            }
-        }
+	generateJson() {
+		let outputJson = {
+			'data': {
+				'columns': []
+			}
+		}
 
-        let dataJson = JSON.parse(this.data)
-        for(let i in dataJson){
-            outputJson.data.columns.push([i, ...dataJson[i]])
-        }
+		let dataJson = JSON.parse(this.data)
+		for (let i in dataJson) {
+			outputJson.data.columns.push([i, ...dataJson[i]])
+		}
 
-        return outputJson
-    }
+		return outputJson
+	}
 }

@@ -1,8 +1,8 @@
-import Chart from "../chart/chart";
+import Chart from '../chart/chart'
 
-export default class GaugeChart extends Chart{
+export default class GaugeChart extends Chart {
 
-    constructor() {
-        super();
-    }
+	constructor() {
+		super()
+	}
 }
