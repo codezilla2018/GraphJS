@@ -6,21 +6,23 @@ export default class SplineChart extends Chart {
 		super()
 
 		this.data = data
-	}
 
-	generateJson() {
-		let outputJson = {
+		// Define output JSON
+		this.outputJson = {
 			'data': {
 				'columns': [],
 				'type': 'spline'
 			}
 		}
 
+		// Add data
 		let dataJson = JSON.parse(this.data)
 		for (let i in dataJson) {
-			outputJson.data.columns.push([i, ...dataJson[i]])
+			this.outputJson.data.columns.push([i, ...dataJson[i]])
 		}
+	}
 
-		return outputJson
+	generateJson() {
+		return this.outputJson
 	}
 }

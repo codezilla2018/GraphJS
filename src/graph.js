@@ -1,7 +1,6 @@
-import GrammarParser from './parser/grammar-parser'
 import ChartType from './chart/chart-type'
 import LineChart from './chart/line-chart'
-import SimpleXYLineChart from './_/simple-xy-line-chart'
+import SimpleXYLineChart from './chart/simple-xy-line-chart'
 import StepChart from './_/step-chart'
 import BarChart from './_/bar-chart'
 import PieChart from './_/pie-chart'
@@ -15,6 +14,7 @@ import LineChartWithRegions from './_/line-chart-with-regions'
 import StackedAreaChart from './_/stacked-area-chart'
 import ScatterPlot from './_/scatter-plot'
 import GaugeChart from './_/gauge-chart'
+import InvalidGrammarError from './error/invalid-grammar-error'
 
 export default class Graph {
 
@@ -32,7 +32,7 @@ export default class Graph {
 			break
 
 		case ChartType.SIMPLE_XY_LINE_CHART:
-			this._chart = new SimpleXYLineChart()
+			this._chart = new SimpleXYLineChart(grammarParser.datasource)
 			break
 
 		case ChartType.STEP_CHART:
@@ -89,7 +89,48 @@ export default class Graph {
 		}
 	}
 
+	do(grammar) {
+		return this._chart.do(grammar)
+	}
+
 	generateJson() {
 		return this._chart.generateJson()
+	}
+}
+
+class GrammarParser {
+
+	constructor(grammar) {
+		this.grammar = grammar
+		this.chartType = undefined
+		this.datasource = undefined
+
+		// Verify the basic structure of the grammar
+		if (GrammarParser.verifyStructure(grammar)) {
+			let chartTypeExtract = grammar.match(new RegExp('generate [A-Z_]+ for'))[0]
+			this.chartType = chartTypeExtract.slice(9, chartTypeExtract.length - 4)
+			this.datasource = grammar.match(new RegExp('for {.*}'))[0].slice(4)
+
+			// Verify the chart type and the datasource
+			if (!GrammarParser.verifyChartType(this.chartType) || !GrammarParser.verifyDatasource(this.datasource)) {
+				throw new InvalidGrammarError()
+			}
+		} else {
+			throw new InvalidGrammarError()
+		}
+	}
+
+	static verifyStructure(grammar) {
+		return grammar.match(new RegExp('generate [A-Z_]+ for {.*}'))
+	}
+
+	static verifyChartType(chartType) {
+		return ChartType.enumValueOf(chartType) instanceof ChartType
+	}
+
+	// eslint-disable-next-line no-unused-vars
+	static verifyDatasource(grammar) {
+		// TODO : Verify datasource
+		return true
 	}
 }
