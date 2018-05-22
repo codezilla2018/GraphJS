@@ -49,10 +49,6 @@ export default class StackedAreaChart extends Chart {
 	}
 
 	generateJson() {
-		if(this._areaDataLabel === '' || this._areaSplineDataLabel === ''){
-			throw new InsufficientDataError()
-		}else{
-			return this._outputJson
-		}
+		return this._outputJson
 	}
 }

@@ -44,10 +44,6 @@ export default class StepChart extends Chart {
 	}
 
 	generateJson() {
-		if(this._stepDataLabel === '' || this._areaStepDataLabel === ''){
-			throw new InsufficientDataError()
-		}else{
-			return this._outputJson
-		}
+		return this._outputJson
 	}
 }

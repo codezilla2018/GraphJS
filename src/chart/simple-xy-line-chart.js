@@ -35,10 +35,6 @@ export default class SimpleXYLineChart extends Chart {
 	}
 
 	generateJson() {
-		if(this._xAxisDataLabel === ''){
-			throw new InsufficientDataError()
-		}else{
-			return this._outputJson
-		}
+		return this._outputJson
 	}
 }
