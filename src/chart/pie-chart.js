@@ -1,6 +1,6 @@
 import Chart from './chart'
 
-export default class LineChart extends Chart {
+export default class PieChart extends Chart {
 
 	constructor(data) {
 		super()
@@ -10,7 +10,8 @@ export default class LineChart extends Chart {
 		// Define output JSON
 		this._outputJson = {
 			'data': {
-				'columns': []
+				'columns': [],
+				'type': 'pie'
 			}
 		}
 

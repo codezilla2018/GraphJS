@@ -1,5 +1,5 @@
-export default class JsonParser{
+export default class JsonParser {
 
-    constructor() {
-    }
+	constructor() {
+	}
 }

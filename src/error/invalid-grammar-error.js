@@ -1,8 +1,8 @@
-import ExtendableError from 'es6-error';
+import ExtendableError from 'es6-error'
 
-export default class InvalidGrammarError extends ExtendableError{
+export default class InvalidGrammarError extends ExtendableError {
 
-    constructor(message = 'Invalid grammar') {
-        super(message);
-    }
+	constructor(message = 'Invalid grammar') {
+		super(message)
+	}
 }

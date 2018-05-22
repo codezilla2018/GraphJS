@@ -1,8 +1,8 @@
-import Chart from "../chart/chart";
+import Chart from '../chart/chart'
 
-export default class ScatterPlot extends Chart{
+export default class ScatterPlot extends Chart {
 
-    constructor() {
-        super();
-    }
+	constructor() {
+		super()
+	}
 }

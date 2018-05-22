@@ -1,5 +1,5 @@
-export default class TxtParser{
+export default class TxtParser {
 
-    constructor() {
-    }
+	constructor() {
+	}
 }

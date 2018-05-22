@@ -1,9 +1,16 @@
-export default class Chart{
+import InvalidOperationError from '../error/invalid-operation-error'
 
-    constructor() {
-    }
+export default class Chart {
 
-    generateJson(){
-        // Generate JSON file
-    }
+	constructor() {
+	}
+
+	// eslint-disable-next-line no-unused-vars
+	do(grammar) {
+		throw new InvalidOperationError()
+	}
+
+	generateJson() {
+		throw new InvalidOperationError()
+	}
 }

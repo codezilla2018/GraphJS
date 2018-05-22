@@ -1,26 +1,28 @@
-import Chart from "./chart";
+import Chart from './chart'
 
 export default class SplineChart extends Chart {
 
-    constructor(data) {
-        super();
+	constructor(data) {
+		super()
 
-        this.data = data
-    }
+		this._data = data
 
-    generateJson() {
-        let outputJson = {
-            "data": {
-                "columns": [],
-                "type": "spline"
-            }
-        }
+		// Define output JSON
+		this._outputJson = {
+			'data': {
+				'columns': [],
+				'type': 'spline'
+			}
+		}
 
-        let dataJson = JSON.parse(this.data)
-        for(let i in dataJson){
-            outputJson.data.columns.push([i, ...dataJson[i]])
-        }
+		// Add _data
+		let dataJson = JSON.parse(this._data)
+		for (let i in dataJson) {
+			this._outputJson.data.columns.push([i, ...dataJson[i]])
+		}
+	}
 
-        return outputJson
-    }
+	generateJson() {
+		return this._outputJson
+	}
 }

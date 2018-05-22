@@ -2,12 +2,12 @@
   "name": "graphjs",
   "version": "1.0.0",
   "description": "A simple grammar to convert raw data into visual graphs",
-  "main": "build/bundle.js",
+  "main": "build/bundle.min.js",
   "scripts": {
     "build": "npm run clean && npm run babel && npm run webpack",
     "webpack": "webpack",
-    "babel": "babel --presets es2015 src --out-dir build",
-    "clean": "rm -rf build/*",
+    "babel": "babel --presets es2015 src --out-dir dist",
+    "clean": "rm -rf dist/*",
     "test": "mocha"
   },
   "repository": {
@@ -36,6 +36,10 @@
     "babel-loader": "^7.1.4",
     "babel-preset-es2015": "^6.24.1",
     "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.10",
     "mocha": "^5.2.0",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.3"
