@@ -1,17 +1,17 @@
 import ChartType from './chart/chart-type'
 import LineChart from './chart/line-chart'
 import SimpleXYLineChart from './chart/simple-xy-line-chart'
-import StepChart from './_/step-chart'
-import BarChart from './_/bar-chart'
-import PieChart from './_/pie-chart'
+import StepChart from './chart/step-chart'
+import BarChart from './chart/bar-chart'
+import PieChart from './chart/pie-chart'
 import CombinationChart from './_/combination-chart'
-import MultipleXYLineChart from './_/multiple-xy-line-chart'
-import AreaChart from './_/area-chart'
-import StackedBarChart from './_/stacked-bar-chart'
-import DonutChart from './_/donut-chart'
+import MultipleXYLineChart from './chart/multiple-xy-line-chart'
+import AreaChart from './chart/area-chart'
+import StackedBarChart from './chart/stacked-bar-chart'
+import DonutChart from './chart/donut-chart'
 import SplineChart from './chart/spline-chart'
 import LineChartWithRegions from './_/line-chart-with-regions'
-import StackedAreaChart from './_/stacked-area-chart'
+import StackedAreaChart from './chart/stacked-area-chart'
 import ScatterPlot from './_/scatter-plot'
 import GaugeChart from './_/gauge-chart'
 import InvalidGrammarError from './error/invalid-grammar-error'
@@ -36,35 +36,35 @@ export default class Graph {
 			break
 
 		case ChartType.STEP_CHART:
-			this._chart = new StepChart()
+			this._chart = new StepChart(grammarParser.datasource)
 			break
 
 		case ChartType.BAR_CHART:
-			this._chart = new BarChart()
+			this._chart = new BarChart(grammarParser.datasource)
 			break
 
 		case ChartType.PIE_CHART:
-			this._chart = new PieChart()
+			this._chart = new PieChart(grammarParser.datasource)
 			break
 
 		case ChartType.COMBINATION_CHART:
-			this._chart = new CombinationChart()
+			this._chart = new CombinationChart(grammarParser.datasource)
 			break
 
 		case ChartType.MULTIPLE_XY_LINE_CHART:
-			this._chart = new MultipleXYLineChart()
+			this._chart = new MultipleXYLineChart(grammarParser.datasource)
 			break
 
 		case ChartType.AREA_CHART:
-			this._chart = new AreaChart()
+			this._chart = new AreaChart(grammarParser.datasource)
 			break
 
 		case ChartType.STACKED_BAR_CHART:
-			this._chart = new StackedBarChart()
+			this._chart = new StackedBarChart(grammarParser.datasource)
 			break
 
 		case ChartType.DONUT_CHART:
-			this._chart = new DonutChart()
+			this._chart = new DonutChart(grammarParser.datasource)
 			break
 
 		case ChartType.SPLINE_CHART:
@@ -72,19 +72,19 @@ export default class Graph {
 			break
 
 		case ChartType.LINE_CHART_WITH_REGIONS:
-			this._chart = new LineChartWithRegions()
+			this._chart = new LineChartWithRegions(grammarParser.datasource)
 			break
 
 		case ChartType.STACKED_AREA_CHART:
-			this._chart = new StackedAreaChart()
+			this._chart = new StackedAreaChart(grammarParser.datasource)
 			break
 
 		case ChartType.SCATTER_PLOT:
-			this._chart = new ScatterPlot()
+			this._chart = new ScatterPlot(grammarParser.datasource)
 			break
 
 		case ChartType.GAUGE_CHART:
-			this._chart = new GaugeChart()
+			this._chart = new GaugeChart(grammarParser.datasource)
 			break
 		}
 	}

@@ -7,43 +7,38 @@ export default class SimpleXYLineChart extends Chart {
 	constructor(data) {
 		super()
 
-		this.data = data
-		this.xAxisColumnLabel = ''
+		this._data = data
+		this._xAxisDataLabel = ''
 
 		// Define output JSON
-		this.outputJson = {
+		this._outputJson = {
 			'data': {
+				'x': '',
 				'columns': []
 			}
 		}
 
-		// Add data
-		let dataJson = JSON.parse(this.data)
+		// Add _data
+		let dataJson = JSON.parse(this._data)
 		for (let i in dataJson) {
-			this.outputJson.data.columns.push([i, ...dataJson[i]])
+			this._outputJson.data.columns.push([i, ...dataJson[i]])
 		}
 	}
 
 	do(grammar){
-		// Add x axis column label
-		if(grammar.match(new RegExp('where [a-zA-Z]+ as [xX]'))){
-			this.xAxisColumnLabel = grammar.match(new RegExp('where [a-zA-Z]+ as'))[1]
+		if(grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as [xX]'))){
+			this._xAxisDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as'))[0].split(' ')[1]
+			this._outputJson.data.x = this._xAxisDataLabel
 		}else{
 			throw new InvalidGrammarError()
 		}
 	}
 
 	generateJson() {
-		if(this.xAxisColumnLabel === ''){
+		if(this._xAxisDataLabel === ''){
 			throw new InsufficientDataError()
 		}else{
-			return this.outputJson
+			return this._outputJson
 		}
-	}
-
-	setXAxisColumnLabel(label) {
-		this.xAxisColumnLabel = label
-
-		// this.outputJson.data.
 	}
 }
