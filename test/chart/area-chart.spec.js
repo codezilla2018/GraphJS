@@ -1,6 +1,6 @@
 import chai from 'chai'
 import AreaChart from '../../src/chart/area-chart'
-import * as area_chart_data from './area_chart_data'
+import * as area_chart_data from './area-chart.data'
 import InvalidGrammarError from '../../src/error/invalid-grammar-error'
 
 var assert = chai.assert
