@@ -1,5 +1,4 @@
 import Chart from './chart'
-import InsufficientDataError from '../error/insufficient-data-error'
 import InvalidGrammarError from '../error/invalid-grammar-error'
 
 export default class AreaChart extends Chart {
@@ -15,7 +14,7 @@ export default class AreaChart extends Chart {
 		this._outputJson = {
 			'data': {
 				'columns': [],
-				'types': []
+				'types': {}
 			}
 		}
 
@@ -27,27 +26,18 @@ export default class AreaChart extends Chart {
 	}
 
 	do(grammar){
-		if (grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as area and [0-9a-zA-Z\\-]+ as area-spline'))){
-			this._areaDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as area'))[0].split(' ')[1]
-			this._areaSplineDataLabel = grammar.match(new RegExp('and [0-9a-zA-Z\\-]+ as area-spline'))[0].split(' ')[1]
-			this._outputJson.data.types[this._areaDataLabel] = 'area'
-			this._outputJson.data.types[this._areaSplineDataLabel] = 'area-spline'
-		}else if(grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as area'))){
-			this._areaDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as spline'))[0].split(' ')[1]
-			this._outputJson.data.types[this._areaDataLabel] = 'area'
-		}else if (grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as area-spline'))){
+		if (grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as area-spline'))){
 			this._areaSplineDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as area-spline'))[0].split(' ')[1]
 			this._outputJson.data.types[this._areaSplineDataLabel] = 'area-spline'
+		}else if(grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as area'))){
+			this._areaDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as area'))[0].split(' ')[1]
+			this._outputJson.data.types[this._areaDataLabel] = 'area'
 		}else{
 			throw new InvalidGrammarError()
 		}
 	}
 
 	generateJson() {
-		if(this._areaDataLabel === '' || this._areaSplineDataLabel === ''){
-			throw new InsufficientDataError()
-		}else{
-			return this._outputJson
-		}
+		return this._outputJson
 	}
 }
