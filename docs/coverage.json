@@ -1,7 +1,7 @@
 {
-  "coverage": "0%",
+  "coverage": "8.77%",
   "expectCount": 114,
-  "actualCount": 0,
+  "actualCount": 10,
   "files": {
     "src/_/combination-chart.js": {
       "expectCount": 2,
@@ -194,27 +194,18 @@
     },
     "src/error/insufficient-data-error.js": {
       "expectCount": 2,
-      "actualCount": 0,
-      "undocumentLines": [
-        3,
-        5
-      ]
+      "actualCount": 2,
+      "undocumentLines": []
     },
     "src/error/invalid-grammar-error.js": {
       "expectCount": 2,
-      "actualCount": 0,
-      "undocumentLines": [
-        3,
-        5
-      ]
+      "actualCount": 2,
+      "undocumentLines": []
     },
     "src/error/invalid-operation-error.js": {
       "expectCount": 2,
-      "actualCount": 0,
-      "undocumentLines": [
-        3,
-        5
-      ]
+      "actualCount": 2,
+      "undocumentLines": []
     },
     "src/graph.js": {
       "expectCount": 13,
@@ -237,34 +228,30 @@
     },
     "src/parser/csv-parser.js": {
       "expectCount": 2,
-      "actualCount": 0,
+      "actualCount": 1,
       "undocumentLines": [
-        1,
-        3
+        6
       ]
     },
     "src/parser/json-parser.js": {
       "expectCount": 2,
-      "actualCount": 0,
+      "actualCount": 1,
       "undocumentLines": [
-        1,
-        3
+        6
       ]
     },
     "src/parser/tsv-parser.js": {
       "expectCount": 2,
-      "actualCount": 0,
+      "actualCount": 1,
       "undocumentLines": [
-        1,
-        3
+        6
       ]
     },
     "src/parser/txt-parser.js": {
       "expectCount": 2,
-      "actualCount": 0,
+      "actualCount": 1,
       "undocumentLines": [
-        1,
-        3
+        6
       ]
     }
   }

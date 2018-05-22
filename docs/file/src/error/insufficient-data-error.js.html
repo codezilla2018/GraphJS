@@ -61,8 +61,15 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/error/insufficient-data-error.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import ExtendableError from &apos;es6-error&apos;
 
+/**
+ * Thrown when the data contained in the grammar is not sufficient for a operation
+ */
 export default class InsufficientDataError extends ExtendableError {
 
+	/**
+	 * Creates an instance of InsufficientDataError.
+	 * @param {string} message - error message.
+	 */
 	constructor(message = &apos;Provided _data is insufficient&apos;) {
 		super(message)
 	}

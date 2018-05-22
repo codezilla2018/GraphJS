@@ -61,8 +61,15 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/error/invalid-grammar-error.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import ExtendableError from &apos;es6-error&apos;
 
+/**
+ * Thrown when the grammar is invalid
+ */
 export default class InvalidGrammarError extends ExtendableError {
 
+	/**
+	 * Creates an instance of InvalidGrammarError.
+	 * @param {string} message - error message.
+	 */
 	constructor(message = &apos;Invalid grammar&apos;) {
 		super(message)
 	}

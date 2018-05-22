@@ -7,7 +7,8 @@
     "build": "npm run clean && npm run babel && npm run webpack",
     "webpack": "webpack",
     "babel": "babel --presets es2015 src --out-dir dist",
-    "clean": "rm -rf dist/*",
+    "esdoc": "esdoc && open ./docs/index.html",
+    "clean": "rm -rf dist/* && rm -rf docs/*",
     "test": "nyc --reporter=html --reporter=text mocha --require babel-core/register test/**/*.spec.js"
   },
   "repository": {
