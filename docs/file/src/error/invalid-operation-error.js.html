@@ -61,8 +61,15 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/error/invalid-operation-error.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import ExtendableError from &apos;es6-error&apos;
 
+/**
+ * Thrown when the operation called for was not implemented / relevant for the context
+ */
 export default class InvalidOperationError extends ExtendableError {
 
+	/**
+	 * Creates an instance of InvalidOperationError.
+	 * @param {string} message - error message.
+	 */
 	constructor(message = &apos;Invalid operation&apos;) {
 		super(message)
 	}
