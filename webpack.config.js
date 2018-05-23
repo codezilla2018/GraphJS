@@ -5,7 +5,7 @@ module.exports = {
 	entry: './src/index.js',
 	output: {
 		path: path.resolve(__dirname, 'dist/browser'),
-		filename: 'bundle.min.js',
+		filename: 'graphjs.min.js',
 		libraryTarget: 'umd'
 	},
 	module: {

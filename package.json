@@ -1,12 +1,13 @@
 {
   "name": "@ivantha/graphjs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple grammar to convert raw data into visual graphs",
   "main": "build/bundle.min.js",
   "scripts": {
     "clean": "rm -rf dist/* && rm -rf docs/*",
     "test": "nyc --reporter=html --reporter=text mocha --require babel-core/register test/**/*.spec.js",
     "build": "npm run clean && npm run babel && npm run webpack && npm run esdoc",
+    "dev": "npm run clean && npm run webpack",
     "webpack": "webpack",
     "babel": "babel --presets es2015 src --out-dir dist/src",
     "esdoc": "esdoc && cp -r ./dist/docs ./docs"
