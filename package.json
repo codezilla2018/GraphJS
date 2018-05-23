@@ -1,6 +1,6 @@
 {
-  "name": "graphjs",
-  "version": "1.0.0",
+  "name": "@ivantha/graphjs",
+  "version": "0.0.1",
   "description": "A simple grammar to convert raw data into visual graphs",
   "main": "build/bundle.min.js",
   "scripts": {

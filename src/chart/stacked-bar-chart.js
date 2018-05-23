@@ -11,12 +11,14 @@ export default class StackedBarChart extends Chart {
 	}
 
 	do(grammar) {
-		if (grammar.match(new RegExp('group [0-9a-zA-Z\\-]+[\\s]*(,[\\s]*)+[0-9a-zA-Z\\-]+'))) {
-			let labelList = grammar.match(new RegExp(' [0-9a-zA-Z\\-]+[\\s]*(,[\\s]*)+[0-9a-zA-Z\\-]+'))[0].split(',')
-			labelList = labelList.map(e => e.trim())
-			this._outputJson.data.groups.push(labelList)
-		} else {
-			throw new InvalidGrammarError()
+		if (!super.do(grammar)) {
+			if (grammar.match(new RegExp('group [0-9a-zA-Z\\-]+[\\s]*(,[\\s]*)+[0-9a-zA-Z\\-]+'))) {
+				let labelList = grammar.match(new RegExp(' [0-9a-zA-Z\\-]+[\\s]*(,[\\s]*)+[0-9a-zA-Z\\-]+'))[0].split(',')
+				labelList = labelList.map(e => e.trim())
+				this._outputJson.data.groups.push(labelList)
+			} else {
+				throw new InvalidGrammarError()
+			}
 		}
 	}
 }

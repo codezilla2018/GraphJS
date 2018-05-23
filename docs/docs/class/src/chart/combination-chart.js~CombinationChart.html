@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../../">
-  <title data-ice="title">InvalidGrammarError | @ivantha/graphjs</title>
+  <title data-ice="title">CombinationChart | @ivantha/graphjs</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -58,23 +58,23 @@
 </nav>
 
 <div class="content" data-ice="content"><div class="header-notice">
-  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import InvalidGrammarError from &apos;<span><a href="file/src/error/invalid-grammar-error.js.html#lineNumber6">@ivantha/graphjs/src/error/invalid-grammar-error.js</a></span>&apos;</code></pre></div>
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import CombinationChart from &apos;<span><a href="file/src/chart/combination-chart.js.html#lineNumber3">@ivantha/graphjs/src/chart/combination-chart.js</a></span>&apos;</code></pre></div>
   <span data-ice="access">public</span>
   <span data-ice="kind">class</span>
   
   
   
-  <span data-ice="source">| <span><a href="file/src/error/invalid-grammar-error.js.html#lineNumber6">source</a></span></span>
+  <span data-ice="source">| <span><a href="file/src/chart/combination-chart.js.html#lineNumber3">source</a></span></span>
 </div>
 
 <div class="self-detail detail">
-  <h1 data-ice="name">InvalidGrammarError</h1>
+  <h1 data-ice="name">CombinationChart</h1>
 
   
 
   
   
-  <div class="flat-list" data-ice="extendsChain"><h4>Extends:</h4><div><span>es6-error~ExtendableError</span> &#x2192; InvalidGrammarError</div></div>
+  <div class="flat-list" data-ice="extendsChain"><h4>Extends:</h4><div><span><a href="class/src/chart/chart.js~Chart.html">Chart</a></span> &#x2192; CombinationChart</div></div>
   
   
   
@@ -84,8 +84,7 @@
 
   
   
-  <div class="description" data-ice="description"><p>Thrown when the grammar is invalid</p>
-</div>
+  
   
 
   
@@ -117,14 +116,13 @@
           
           
           
-          <span class="code" data-ice="name"><span><a href="class/src/error/invalid-grammar-error.js~InvalidGrammarError.html#instance-constructor-constructor">constructor</a></span></span><span class="code" data-ice="signature">(message: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>)</span>
+          <span class="code" data-ice="name"><span><a href="class/src/chart/combination-chart.js~CombinationChart.html#instance-constructor-constructor">constructor</a></span></span><span class="code" data-ice="signature">()</span>
         </p>
       </div>
       <div>
         
         
-        <div data-ice="description"><p>Creates an instance of InvalidGrammarError.</p>
-</div>
+        
       </div>
     </td>
     <td>
@@ -138,7 +136,125 @@
 
 
 
-
+<div class="inherited-summary" data-ice="inheritedSummary"><h2>Inherited Summary</h2><table class="summary" data-ice="summary">
+  <thead><tr><td data-ice="title" colspan="3"><span class="toggle closed"></span> From class <span><a href="class/src/chart/chart.js~Chart.html">Chart</a></span></td></tr></thead>
+  <tbody>
+  
+  <tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">private</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          
+          <span class="code" data-ice="name"><span><a href="class/src/chart/chart.js~Chart.html#instance-member-_data">_data</a></span></span><span class="code" data-ice="signature">: <span>*</span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">private</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          
+          <span class="code" data-ice="name"><span><a href="class/src/chart/chart.js~Chart.html#instance-member-_outputJson">_outputJson</a></span></span><span class="code" data-ice="signature">: {&quot;size&quot;: <span>*</span>, &quot;data&quot;: <span>*</span>, &quot;point&quot;: <span>*</span>, &quot;axis&quot;: <span>*</span>, &quot;grid&quot;: <span>*</span>, &quot;legend&quot;: <span>*</span>, &quot;tooltip&quot;: <span>*</span>, &quot;subchart&quot;: <span>*</span>, &quot;zoom&quot;: <span>*</span>, &quot;bar&quot;: <span>*</span>, &quot;donut&quot;: <span>*</span>}</span>
+        </p>
+      </div>
+      <div>
+        
+        
+        
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          
+          <span class="code" data-ice="name"><span><a href="class/src/chart/chart.js~Chart.html#instance-method-do">do</a></span></span><span class="code" data-ice="signature">(grammar: <span>*</span>): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          
+          <span class="code" data-ice="name"><span><a href="class/src/chart/chart.js~Chart.html#instance-method-generateJson">generateJson</a></span></span><span class="code" data-ice="signature">(): <span>*</span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+</tbody>
+</table>
+</div>
 
 
 
@@ -152,40 +268,22 @@
     
     
     
-    <span class="code" data-ice="name">constructor</span><span class="code" data-ice="signature">(message: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>)</span>
+    <span class="code" data-ice="name">constructor</span><span class="code" data-ice="signature">()</span>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/error/invalid-grammar-error.js.html#lineNumber12">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/chart/combination-chart.js.html#lineNumber5">source</a></span></span>
     </span>
   </h3>
 
   
   
   
-  <div data-ice="description"><p>Creates an instance of InvalidGrammarError.</p>
-</div>
-
   
 
-  <div data-ice="properties"><div data-ice="properties">
-  <h4 data-ice="title">Params:</h4>
-  <table class="params">
-    <thead>
-    <tr><td>Name</td><td>Type</td><td>Attribute</td><td>Description</td></tr>
-    </thead>
-    <tbody>
-    
-    <tr data-ice="property" data-depth="0">
-      <td data-ice="name" class="code" data-depth="0">message</td>
-      <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></td>
-      <td data-ice="appendix"></td>
-      <td data-ice="description"><p>Error message.</p>
-</td>
-    </tr>
-</tbody>
-  </table>
-</div>
+  <div data-ice="override"><h4>Override:</h4><span><a href="class/src/chart/chart.js~Chart.html#instance-constructor-constructor">Chart#constructor</a></span></div>
+
+  <div data-ice="properties">
 </div>
 
   

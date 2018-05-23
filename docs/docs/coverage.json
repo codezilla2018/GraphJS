@@ -3,66 +3,6 @@
   "expectCount": 72,
   "actualCount": 8,
   "files": {
-    "src/_/combination-chart.js": {
-      "expectCount": 2,
-      "actualCount": 0,
-      "undocumentLines": [
-        3,
-        5
-      ]
-    },
-    "src/_/csv-parser.js": {
-      "expectCount": 2,
-      "actualCount": 1,
-      "undocumentLines": [
-        6
-      ]
-    },
-    "src/_/gauge-chart.js": {
-      "expectCount": 2,
-      "actualCount": 0,
-      "undocumentLines": [
-        3,
-        5
-      ]
-    },
-    "src/_/json-parser.js": {
-      "expectCount": 2,
-      "actualCount": 1,
-      "undocumentLines": [
-        6
-      ]
-    },
-    "src/_/line-chart-with-regions.js": {
-      "expectCount": 2,
-      "actualCount": 0,
-      "undocumentLines": [
-        3,
-        5
-      ]
-    },
-    "src/_/scatter-plot.js": {
-      "expectCount": 2,
-      "actualCount": 0,
-      "undocumentLines": [
-        3,
-        5
-      ]
-    },
-    "src/_/tsv-parser.js": {
-      "expectCount": 2,
-      "actualCount": 1,
-      "undocumentLines": [
-        6
-      ]
-    },
-    "src/_/txt-parser.js": {
-      "expectCount": 2,
-      "actualCount": 1,
-      "undocumentLines": [
-        6
-      ]
-    },
     "src/chart/area-chart.js": {
       "expectCount": 3,
       "actualCount": 0,
@@ -92,12 +32,20 @@
       "expectCount": 6,
       "actualCount": 0,
       "undocumentLines": [
+        1,
         3,
-        5,
-        6,
-        9,
-        36,
-        40
+        4,
+        7,
+        79,
+        188
+      ]
+    },
+    "src/chart/combination-chart.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5
       ]
     },
     "src/chart/donut-chart.js": {
@@ -107,6 +55,22 @@
         4,
         6,
         13
+      ]
+    },
+    "src/chart/gauge-chart.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5
+      ]
+    },
+    "src/chart/line-chart-with-regions.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5
       ]
     },
     "src/chart/line-chart.js": {
@@ -127,6 +91,14 @@
       ]
     },
     "src/chart/pie-chart.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5
+      ]
+    },
+    "src/chart/scatter-plot.js": {
       "expectCount": 2,
       "actualCount": 0,
       "undocumentLines": [
@@ -176,8 +148,8 @@
         4,
         6,
         10,
-        12,
-        15
+        13,
+        16
       ]
     },
     "src/error/invalid-grammar-error.js": {
@@ -194,19 +166,47 @@
       "expectCount": 13,
       "actualCount": 0,
       "undocumentLines": [
-        19,
-        22,
+        20,
         23,
-        92,
+        24,
         96,
-        101,
-        103,
-        104,
+        100,
         105,
-        106,
-        123,
+        107,
+        108,
+        109,
+        110,
         127,
-        132
+        131,
+        136
+      ]
+    },
+    "src/parser/csv-parser.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "src/parser/json-parser.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "src/parser/tsv-parser.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "src/parser/txt-parser.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        6
       ]
     }
   }

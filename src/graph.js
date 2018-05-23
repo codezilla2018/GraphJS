@@ -4,17 +4,18 @@ import SimpleXYLineChart from './chart/simple-xy-line-chart'
 import StepChart from './chart/step-chart'
 import BarChart from './chart/bar-chart'
 import PieChart from './chart/pie-chart'
-import CombinationChart from './_/combination-chart'
+import CombinationChart from './chart/combination-chart'
 import MultipleXYLineChart from './chart/multiple-xy-line-chart'
 import AreaChart from './chart/area-chart'
 import StackedBarChart from './chart/stacked-bar-chart'
 import DonutChart from './chart/donut-chart'
 import SplineChart from './chart/spline-chart'
-import LineChartWithRegions from './_/line-chart-with-regions'
+import LineChartWithRegions from './chart/line-chart-with-regions'
 import StackedAreaChart from './chart/stacked-area-chart'
-import ScatterPlot from './_/scatter-plot'
-import GaugeChart from './_/gauge-chart'
+import ScatterPlot from './chart/scatter-plot'
+import GaugeChart from './chart/gauge-chart'
 import InvalidGrammarError from './error/invalid-grammar-error'
+import InvalidOperationError from './error/invalid-operation-error'
 
 export default class Graph {
 
@@ -48,8 +49,9 @@ export default class Graph {
 			break
 
 		case ChartType.COMBINATION_CHART:
-			this._chart = new CombinationChart(grammarParser.datasource)
-			break
+			throw new InvalidOperationError()
+			// this._chart = new CombinationChart(grammarParser.datasource)
+			// break
 
 		case ChartType.MULTIPLE_XY_LINE_CHART:
 			this._chart = new MultipleXYLineChart(grammarParser.datasource)
@@ -72,8 +74,9 @@ export default class Graph {
 			break
 
 		case ChartType.LINE_CHART_WITH_REGIONS:
-			this._chart = new LineChartWithRegions(grammarParser.datasource)
-			break
+			throw new InvalidOperationError()
+			// this._chart = new LineChartWithRegions(grammarParser.datasource)
+			// break
 
 		case ChartType.STACKED_AREA_CHART:
 			this._chart = new StackedAreaChart(grammarParser.datasource)
@@ -84,8 +87,9 @@ export default class Graph {
 			break
 
 		case ChartType.GAUGE_CHART:
-			this._chart = new GaugeChart(grammarParser.datasource)
-			break
+			throw new InvalidOperationError()
+			// this._chart = new GaugeChart(grammarParser.datasource)
+			// break
 		}
 	}
 

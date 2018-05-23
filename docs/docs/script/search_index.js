@@ -1,146 +1,146 @@
 window.esdocSearchIndex = [
   [
-    "graphjs/src/chart/area-chart.js~areachart",
+    "@ivantha/graphjs/src/chart/area-chart.js~areachart",
     "class/src/chart/area-chart.js~AreaChart.html",
-    "<span>AreaChart</span> <span class=\"search-result-import-path\">graphjs/src/chart/area-chart.js</span>",
+    "<span>AreaChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/area-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/bar-chart.js~barchart",
+    "@ivantha/graphjs/src/chart/bar-chart.js~barchart",
     "class/src/chart/bar-chart.js~BarChart.html",
-    "<span>BarChart</span> <span class=\"search-result-import-path\">graphjs/src/chart/bar-chart.js</span>",
+    "<span>BarChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/bar-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/chart.js~chart",
+    "@ivantha/graphjs/src/chart/chart.js~chart",
     "class/src/chart/chart.js~Chart.html",
-    "<span>Chart</span> <span class=\"search-result-import-path\">graphjs/src/chart/chart.js</span>",
+    "<span>Chart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/chart-type.js~charttype",
+    "@ivantha/graphjs/src/chart/chart-type.js~charttype",
     "class/src/chart/chart-type.js~ChartType.html",
-    "<span>ChartType</span> <span class=\"search-result-import-path\">graphjs/src/chart/chart-type.js</span>",
+    "<span>ChartType</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/chart-type.js</span>",
     "class"
   ],
   [
-    "graphjs/src/_/combination-chart.js~combinationchart",
-    "class/src/_/combination-chart.js~CombinationChart.html",
-    "<span>CombinationChart</span> <span class=\"search-result-import-path\">graphjs/src/_/combination-chart.js</span>",
+    "@ivantha/graphjs/src/chart/combination-chart.js~combinationchart",
+    "class/src/chart/combination-chart.js~CombinationChart.html",
+    "<span>CombinationChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/combination-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/_/csv-parser.js~csvparser",
-    "class/src/_/csv-parser.js~CsvParser.html",
-    "<span>CsvParser</span> <span class=\"search-result-import-path\">graphjs/src/_/csv-parser.js</span>",
+    "@ivantha/graphjs/src/parser/csv-parser.js~csvparser",
+    "class/src/parser/csv-parser.js~CsvParser.html",
+    "<span>CsvParser</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/parser/csv-parser.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/donut-chart.js~donutchart",
+    "@ivantha/graphjs/src/chart/donut-chart.js~donutchart",
     "class/src/chart/donut-chart.js~DonutChart.html",
-    "<span>DonutChart</span> <span class=\"search-result-import-path\">graphjs/src/chart/donut-chart.js</span>",
+    "<span>DonutChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/donut-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/_/gauge-chart.js~gaugechart",
-    "class/src/_/gauge-chart.js~GaugeChart.html",
-    "<span>GaugeChart</span> <span class=\"search-result-import-path\">graphjs/src/_/gauge-chart.js</span>",
+    "@ivantha/graphjs/src/chart/gauge-chart.js~gaugechart",
+    "class/src/chart/gauge-chart.js~GaugeChart.html",
+    "<span>GaugeChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/gauge-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/graph.js~graph",
+    "@ivantha/graphjs/src/graph.js~graph",
     "class/src/graph.js~Graph.html",
-    "<span>Graph</span> <span class=\"search-result-import-path\">graphjs/src/graph.js</span>",
+    "<span>Graph</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/graph.js</span>",
     "class"
   ],
   [
-    "graphjs/src/error/invalid-grammar-error.js~invalidgrammarerror",
+    "@ivantha/graphjs/src/error/invalid-grammar-error.js~invalidgrammarerror",
     "class/src/error/invalid-grammar-error.js~InvalidGrammarError.html",
-    "<span>InvalidGrammarError</span> <span class=\"search-result-import-path\">graphjs/src/error/invalid-grammar-error.js</span>",
+    "<span>InvalidGrammarError</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/error/invalid-grammar-error.js</span>",
     "class"
   ],
   [
-    "graphjs/src/error/invalid-operation-error.js~invalidoperationerror",
+    "@ivantha/graphjs/src/error/invalid-operation-error.js~invalidoperationerror",
     "class/src/error/invalid-operation-error.js~InvalidOperationError.html",
-    "<span>InvalidOperationError</span> <span class=\"search-result-import-path\">graphjs/src/error/invalid-operation-error.js</span>",
+    "<span>InvalidOperationError</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/error/invalid-operation-error.js</span>",
     "class"
   ],
   [
-    "graphjs/src/_/json-parser.js~jsonparser",
-    "class/src/_/json-parser.js~JsonParser.html",
-    "<span>JsonParser</span> <span class=\"search-result-import-path\">graphjs/src/_/json-parser.js</span>",
+    "@ivantha/graphjs/src/parser/json-parser.js~jsonparser",
+    "class/src/parser/json-parser.js~JsonParser.html",
+    "<span>JsonParser</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/parser/json-parser.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/line-chart.js~linechart",
+    "@ivantha/graphjs/src/chart/line-chart.js~linechart",
     "class/src/chart/line-chart.js~LineChart.html",
-    "<span>LineChart</span> <span class=\"search-result-import-path\">graphjs/src/chart/line-chart.js</span>",
+    "<span>LineChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/line-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/_/line-chart-with-regions.js~linechartwithregions",
-    "class/src/_/line-chart-with-regions.js~LineChartWithRegions.html",
-    "<span>LineChartWithRegions</span> <span class=\"search-result-import-path\">graphjs/src/_/line-chart-with-regions.js</span>",
+    "@ivantha/graphjs/src/chart/line-chart-with-regions.js~linechartwithregions",
+    "class/src/chart/line-chart-with-regions.js~LineChartWithRegions.html",
+    "<span>LineChartWithRegions</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/line-chart-with-regions.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/multiple-xy-line-chart.js~multiplexylinechart",
+    "@ivantha/graphjs/src/chart/multiple-xy-line-chart.js~multiplexylinechart",
     "class/src/chart/multiple-xy-line-chart.js~MultipleXYLineChart.html",
-    "<span>MultipleXYLineChart</span> <span class=\"search-result-import-path\">graphjs/src/chart/multiple-xy-line-chart.js</span>",
+    "<span>MultipleXYLineChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/multiple-xy-line-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/pie-chart.js~piechart",
+    "@ivantha/graphjs/src/chart/pie-chart.js~piechart",
     "class/src/chart/pie-chart.js~PieChart.html",
-    "<span>PieChart</span> <span class=\"search-result-import-path\">graphjs/src/chart/pie-chart.js</span>",
+    "<span>PieChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/pie-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/_/scatter-plot.js~scatterplot",
-    "class/src/_/scatter-plot.js~ScatterPlot.html",
-    "<span>ScatterPlot</span> <span class=\"search-result-import-path\">graphjs/src/_/scatter-plot.js</span>",
+    "@ivantha/graphjs/src/chart/scatter-plot.js~scatterplot",
+    "class/src/chart/scatter-plot.js~ScatterPlot.html",
+    "<span>ScatterPlot</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/scatter-plot.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/simple-xy-line-chart.js~simplexylinechart",
+    "@ivantha/graphjs/src/chart/simple-xy-line-chart.js~simplexylinechart",
     "class/src/chart/simple-xy-line-chart.js~SimpleXYLineChart.html",
-    "<span>SimpleXYLineChart</span> <span class=\"search-result-import-path\">graphjs/src/chart/simple-xy-line-chart.js</span>",
+    "<span>SimpleXYLineChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/simple-xy-line-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/spline-chart.js~splinechart",
+    "@ivantha/graphjs/src/chart/spline-chart.js~splinechart",
     "class/src/chart/spline-chart.js~SplineChart.html",
-    "<span>SplineChart</span> <span class=\"search-result-import-path\">graphjs/src/chart/spline-chart.js</span>",
+    "<span>SplineChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/spline-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/stacked-area-chart.js~stackedareachart",
+    "@ivantha/graphjs/src/chart/stacked-area-chart.js~stackedareachart",
     "class/src/chart/stacked-area-chart.js~StackedAreaChart.html",
-    "<span>StackedAreaChart</span> <span class=\"search-result-import-path\">graphjs/src/chart/stacked-area-chart.js</span>",
+    "<span>StackedAreaChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/stacked-area-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/stacked-bar-chart.js~stackedbarchart",
+    "@ivantha/graphjs/src/chart/stacked-bar-chart.js~stackedbarchart",
     "class/src/chart/stacked-bar-chart.js~StackedBarChart.html",
-    "<span>StackedBarChart</span> <span class=\"search-result-import-path\">graphjs/src/chart/stacked-bar-chart.js</span>",
+    "<span>StackedBarChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/stacked-bar-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/chart/step-chart.js~stepchart",
+    "@ivantha/graphjs/src/chart/step-chart.js~stepchart",
     "class/src/chart/step-chart.js~StepChart.html",
-    "<span>StepChart</span> <span class=\"search-result-import-path\">graphjs/src/chart/step-chart.js</span>",
+    "<span>StepChart</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/chart/step-chart.js</span>",
     "class"
   ],
   [
-    "graphjs/src/_/tsv-parser.js~tsvparser",
-    "class/src/_/tsv-parser.js~TsvParser.html",
-    "<span>TsvParser</span> <span class=\"search-result-import-path\">graphjs/src/_/tsv-parser.js</span>",
+    "@ivantha/graphjs/src/parser/tsv-parser.js~tsvparser",
+    "class/src/parser/tsv-parser.js~TsvParser.html",
+    "<span>TsvParser</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/parser/tsv-parser.js</span>",
     "class"
   ],
   [
-    "graphjs/src/_/txt-parser.js~txtparser",
-    "class/src/_/txt-parser.js~TxtParser.html",
-    "<span>TxtParser</span> <span class=\"search-result-import-path\">graphjs/src/_/txt-parser.js</span>",
+    "@ivantha/graphjs/src/parser/txt-parser.js~txtparser",
+    "class/src/parser/txt-parser.js~TxtParser.html",
+    "<span>TxtParser</span> <span class=\"search-result-import-path\">@ivantha/graphjs/src/parser/txt-parser.js</span>",
     "class"
   ],
   [
@@ -426,102 +426,6 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "src/_/combination-chart.js",
-    "file/src/_/combination-chart.js.html",
-    "src/_/combination-chart.js",
-    "file"
-  ],
-  [
-    "src/_/combination-chart.js~combinationchart#constructor",
-    "class/src/_/combination-chart.js~CombinationChart.html#instance-constructor-constructor",
-    "src/_/combination-chart.js~CombinationChart#constructor",
-    "method"
-  ],
-  [
-    "src/_/csv-parser.js",
-    "file/src/_/csv-parser.js.html",
-    "src/_/csv-parser.js",
-    "file"
-  ],
-  [
-    "src/_/csv-parser.js~csvparser#constructor",
-    "class/src/_/csv-parser.js~CsvParser.html#instance-constructor-constructor",
-    "src/_/csv-parser.js~CsvParser#constructor",
-    "method"
-  ],
-  [
-    "src/_/gauge-chart.js",
-    "file/src/_/gauge-chart.js.html",
-    "src/_/gauge-chart.js",
-    "file"
-  ],
-  [
-    "src/_/gauge-chart.js~gaugechart#constructor",
-    "class/src/_/gauge-chart.js~GaugeChart.html#instance-constructor-constructor",
-    "src/_/gauge-chart.js~GaugeChart#constructor",
-    "method"
-  ],
-  [
-    "src/_/json-parser.js",
-    "file/src/_/json-parser.js.html",
-    "src/_/json-parser.js",
-    "file"
-  ],
-  [
-    "src/_/json-parser.js~jsonparser#constructor",
-    "class/src/_/json-parser.js~JsonParser.html#instance-constructor-constructor",
-    "src/_/json-parser.js~JsonParser#constructor",
-    "method"
-  ],
-  [
-    "src/_/line-chart-with-regions.js",
-    "file/src/_/line-chart-with-regions.js.html",
-    "src/_/line-chart-with-regions.js",
-    "file"
-  ],
-  [
-    "src/_/line-chart-with-regions.js~linechartwithregions#constructor",
-    "class/src/_/line-chart-with-regions.js~LineChartWithRegions.html#instance-constructor-constructor",
-    "src/_/line-chart-with-regions.js~LineChartWithRegions#constructor",
-    "method"
-  ],
-  [
-    "src/_/scatter-plot.js",
-    "file/src/_/scatter-plot.js.html",
-    "src/_/scatter-plot.js",
-    "file"
-  ],
-  [
-    "src/_/scatter-plot.js~scatterplot#constructor",
-    "class/src/_/scatter-plot.js~ScatterPlot.html#instance-constructor-constructor",
-    "src/_/scatter-plot.js~ScatterPlot#constructor",
-    "method"
-  ],
-  [
-    "src/_/tsv-parser.js",
-    "file/src/_/tsv-parser.js.html",
-    "src/_/tsv-parser.js",
-    "file"
-  ],
-  [
-    "src/_/tsv-parser.js~tsvparser#constructor",
-    "class/src/_/tsv-parser.js~TsvParser.html#instance-constructor-constructor",
-    "src/_/tsv-parser.js~TsvParser#constructor",
-    "method"
-  ],
-  [
-    "src/_/txt-parser.js",
-    "file/src/_/txt-parser.js.html",
-    "src/_/txt-parser.js",
-    "file"
-  ],
-  [
-    "src/_/txt-parser.js~txtparser#constructor",
-    "class/src/_/txt-parser.js~TxtParser.html#instance-constructor-constructor",
-    "src/_/txt-parser.js~TxtParser#constructor",
-    "method"
-  ],
-  [
     "src/chart/area-chart.js",
     "file/src/chart/area-chart.js.html",
     "src/chart/area-chart.js",
@@ -600,6 +504,18 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/chart/combination-chart.js",
+    "file/src/chart/combination-chart.js.html",
+    "src/chart/combination-chart.js",
+    "file"
+  ],
+  [
+    "src/chart/combination-chart.js~combinationchart#constructor",
+    "class/src/chart/combination-chart.js~CombinationChart.html#instance-constructor-constructor",
+    "src/chart/combination-chart.js~CombinationChart#constructor",
+    "method"
+  ],
+  [
     "src/chart/donut-chart.js",
     "file/src/chart/donut-chart.js.html",
     "src/chart/donut-chart.js",
@@ -615,6 +531,30 @@ window.esdocSearchIndex = [
     "src/chart/donut-chart.js~donutchart#do",
     "class/src/chart/donut-chart.js~DonutChart.html#instance-method-do",
     "src/chart/donut-chart.js~DonutChart#do",
+    "method"
+  ],
+  [
+    "src/chart/gauge-chart.js",
+    "file/src/chart/gauge-chart.js.html",
+    "src/chart/gauge-chart.js",
+    "file"
+  ],
+  [
+    "src/chart/gauge-chart.js~gaugechart#constructor",
+    "class/src/chart/gauge-chart.js~GaugeChart.html#instance-constructor-constructor",
+    "src/chart/gauge-chart.js~GaugeChart#constructor",
+    "method"
+  ],
+  [
+    "src/chart/line-chart-with-regions.js",
+    "file/src/chart/line-chart-with-regions.js.html",
+    "src/chart/line-chart-with-regions.js",
+    "file"
+  ],
+  [
+    "src/chart/line-chart-with-regions.js~linechartwithregions#constructor",
+    "class/src/chart/line-chart-with-regions.js~LineChartWithRegions.html#instance-constructor-constructor",
+    "src/chart/line-chart-with-regions.js~LineChartWithRegions#constructor",
     "method"
   ],
   [
@@ -657,6 +597,18 @@ window.esdocSearchIndex = [
     "src/chart/pie-chart.js~piechart#constructor",
     "class/src/chart/pie-chart.js~PieChart.html#instance-constructor-constructor",
     "src/chart/pie-chart.js~PieChart#constructor",
+    "method"
+  ],
+  [
+    "src/chart/scatter-plot.js",
+    "file/src/chart/scatter-plot.js.html",
+    "src/chart/scatter-plot.js",
+    "file"
+  ],
+  [
+    "src/chart/scatter-plot.js~scatterplot#constructor",
+    "class/src/chart/scatter-plot.js~ScatterPlot.html#instance-constructor-constructor",
+    "src/chart/scatter-plot.js~ScatterPlot#constructor",
     "method"
   ],
   [
@@ -814,5 +766,53 @@ window.esdocSearchIndex = [
     "file/src/index.js.html",
     "src/index.js",
     "file"
+  ],
+  [
+    "src/parser/csv-parser.js",
+    "file/src/parser/csv-parser.js.html",
+    "src/parser/csv-parser.js",
+    "file"
+  ],
+  [
+    "src/parser/csv-parser.js~csvparser#constructor",
+    "class/src/parser/csv-parser.js~CsvParser.html#instance-constructor-constructor",
+    "src/parser/csv-parser.js~CsvParser#constructor",
+    "method"
+  ],
+  [
+    "src/parser/json-parser.js",
+    "file/src/parser/json-parser.js.html",
+    "src/parser/json-parser.js",
+    "file"
+  ],
+  [
+    "src/parser/json-parser.js~jsonparser#constructor",
+    "class/src/parser/json-parser.js~JsonParser.html#instance-constructor-constructor",
+    "src/parser/json-parser.js~JsonParser#constructor",
+    "method"
+  ],
+  [
+    "src/parser/tsv-parser.js",
+    "file/src/parser/tsv-parser.js.html",
+    "src/parser/tsv-parser.js",
+    "file"
+  ],
+  [
+    "src/parser/tsv-parser.js~tsvparser#constructor",
+    "class/src/parser/tsv-parser.js~TsvParser.html#instance-constructor-constructor",
+    "src/parser/tsv-parser.js~TsvParser#constructor",
+    "method"
+  ],
+  [
+    "src/parser/txt-parser.js",
+    "file/src/parser/txt-parser.js.html",
+    "src/parser/txt-parser.js",
+    "file"
+  ],
+  [
+    "src/parser/txt-parser.js~txtparser#constructor",
+    "class/src/parser/txt-parser.js~TxtParser.html#instance-constructor-constructor",
+    "src/parser/txt-parser.js~TxtParser#constructor",
+    "method"
   ]
 ]

@@ -1,8 +1,8 @@
-import Chart from '../chart/chart'
+import Chart from './chart'
 
 export default class LineChartWithRegions extends Chart {
 
-	constructor() {
-		super()
+	constructor(data) {
+		super(data)
 	}
 }

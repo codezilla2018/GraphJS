@@ -11,11 +11,13 @@ export default class DonutChart extends Chart {
 	}
 
 	do(grammar) {
-		if (grammar.match(new RegExp('set title as [0-9a-zA-Z\\-]+'))) {
-			let chartTitle = grammar.match(new RegExp('as [0-9a-zA-Z\\-]+'))[0].split(' ')[1]
-			this._outputJson.donut.title = chartTitle
-		} else {
-			throw new InvalidGrammarError()
+		if (!super.do(grammar)) {
+			if (grammar.match(new RegExp('set title as [0-9a-zA-Z\\-]+'))) {
+				let chartTitle = grammar.match(new RegExp('as [0-9a-zA-Z\\-]+'))[0].split(' ')[1]
+				this._outputJson.donut.title = chartTitle
+			} else {
+				throw new InvalidGrammarError()
+			}
 		}
 	}
 }
