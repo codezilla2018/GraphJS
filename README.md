@@ -5,8 +5,9 @@
 
 A javascript library written in ES6 for parsing a simple grammar which is fully complient with [C3.js](http://c3js.org/). 
 
-[Site](http://ivantha.me/graphjs-demo/) |
-[Docs](https://github.com/codezilla2018/GraphJS/tree/master/docs/docs) |
+[Demo](http://ivantha.me/graphjs-demo/) |
+[API Documentation](http://ivantha.me/GraphJS/) |
+[Developer documentation](https://github.com/codezilla2018/GraphJS/tree/master/docs/docs) |
 [Contributing](https://raw.githubusercontent.com/codezilla2018/GraphJS/master/CONTRIBUTING.md) |
 [Code of Conduct](https://raw.githubusercontent.com/codezilla2018/GraphJS/master/CODE_OF_CONDUCT.md) |
 
