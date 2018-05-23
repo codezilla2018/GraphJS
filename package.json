@@ -4,12 +4,12 @@
   "description": "A simple grammar to convert raw data into visual graphs",
   "main": "build/bundle.min.js",
   "scripts": {
-    "build": "npm run clean && npm run babel && npm run webpack",
-    "webpack": "webpack",
-    "babel": "babel --presets es2015 src --out-dir dist",
-    "esdoc": "esdoc && open ./docs/index.html",
     "clean": "rm -rf dist/* && rm -rf docs/*",
-    "test": "nyc --reporter=html --reporter=text mocha --require babel-core/register test/**/*.spec.js"
+    "test": "nyc --reporter=html --reporter=text mocha --require babel-core/register test/**/*.spec.js",
+    "build": "npm run clean && npm run babel && npm run webpack && npm run esdoc",
+    "webpack": "webpack",
+    "babel": "babel --presets es2015 src --out-dir dist/src",
+    "esdoc": "esdoc && cp -r ./dist/docs ./docs"
   },
   "repository": {
     "type": "git",

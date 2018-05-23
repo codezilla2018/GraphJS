@@ -1,0 +1,2155 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/_/combination-chart.js",
+    "content": "import Chart from '../chart/chart'\n\nexport default class CombinationChart extends Chart {\n\n\tconstructor() {\n\t\tsuper()\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/_/combination-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "CombinationChart",
+    "memberof": "src/_/combination-chart.js",
+    "static": true,
+    "longname": "src/_/combination-chart.js~CombinationChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/_/combination-chart.js",
+    "importStyle": "CombinationChart",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/_/combination-chart.js~CombinationChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/_/combination-chart.js~CombinationChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "name": "src/_/csv-parser.js",
+    "content": "/**\n * Parse CSV files into the desired format of GraphJS library\n */\nexport default class CsvParser {\n\n\tconstructor() {\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/_/csv-parser.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 52,
+    "kind": "class",
+    "name": "CsvParser",
+    "memberof": "src/_/csv-parser.js",
+    "static": true,
+    "longname": "src/_/csv-parser.js~CsvParser",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/_/csv-parser.js",
+    "importStyle": "CsvParser",
+    "description": "Parse CSV files into the desired format of GraphJS library",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 53,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/_/csv-parser.js~CsvParser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/_/csv-parser.js~CsvParser#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/_/gauge-chart.js",
+    "content": "import Chart from '../chart/chart'\n\nexport default class GaugeChart extends Chart {\n\n\tconstructor() {\n\t\tsuper()\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/_/gauge-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "class",
+    "name": "GaugeChart",
+    "memberof": "src/_/gauge-chart.js",
+    "static": true,
+    "longname": "src/_/gauge-chart.js~GaugeChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/_/gauge-chart.js",
+    "importStyle": "GaugeChart",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 56,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/_/gauge-chart.js~GaugeChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/_/gauge-chart.js~GaugeChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/_/json-parser.js",
+    "content": "/**\n * Parse JSON files into the desired format of GraphJS library\n */\nexport default class JsonParser {\n\n\tconstructor() {\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/_/json-parser.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "class",
+    "name": "JsonParser",
+    "memberof": "src/_/json-parser.js",
+    "static": true,
+    "longname": "src/_/json-parser.js~JsonParser",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/_/json-parser.js",
+    "importStyle": "JsonParser",
+    "description": "Parse JSON files into the desired format of GraphJS library",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 59,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/_/json-parser.js~JsonParser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/_/json-parser.js~JsonParser#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "src/_/line-chart-with-regions.js",
+    "content": "import Chart from '../chart/chart'\n\nexport default class LineChartWithRegions extends Chart {\n\n\tconstructor() {\n\t\tsuper()\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/_/line-chart-with-regions.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "class",
+    "name": "LineChartWithRegions",
+    "memberof": "src/_/line-chart-with-regions.js",
+    "static": true,
+    "longname": "src/_/line-chart-with-regions.js~LineChartWithRegions",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/_/line-chart-with-regions.js",
+    "importStyle": "LineChartWithRegions",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 62,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/_/line-chart-with-regions.js~LineChartWithRegions",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/_/line-chart-with-regions.js~LineChartWithRegions#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/_/scatter-plot.js",
+    "content": "import Chart from '../chart/chart'\n\nexport default class ScatterPlot extends Chart {\n\n\tconstructor() {\n\t\tsuper()\n\t}\n\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/_/scatter-plot.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "class",
+    "name": "ScatterPlot",
+    "memberof": "src/_/scatter-plot.js",
+    "static": true,
+    "longname": "src/_/scatter-plot.js~ScatterPlot",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/_/scatter-plot.js",
+    "importStyle": "ScatterPlot",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 65,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/_/scatter-plot.js~ScatterPlot",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/_/scatter-plot.js~ScatterPlot#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/_/tsv-parser.js",
+    "content": "/**\n * Parse TSV files into the desired format of GraphJS library\n */\nexport default class TsvParser {\n\n\tconstructor() {\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/_/tsv-parser.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "class",
+    "name": "TsvParser",
+    "memberof": "src/_/tsv-parser.js",
+    "static": true,
+    "longname": "src/_/tsv-parser.js~TsvParser",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/_/tsv-parser.js",
+    "importStyle": "TsvParser",
+    "description": "Parse TSV files into the desired format of GraphJS library",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 68,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/_/tsv-parser.js~TsvParser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/_/tsv-parser.js~TsvParser#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/_/txt-parser.js",
+    "content": "/**\n * Parse TXT files into the desired format of GraphJS library\n */\nexport default class TxtParser {\n\n\tconstructor() {\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/_/txt-parser.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "class",
+    "name": "TxtParser",
+    "memberof": "src/_/txt-parser.js",
+    "static": true,
+    "longname": "src/_/txt-parser.js~TxtParser",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/_/txt-parser.js",
+    "importStyle": "TxtParser",
+    "description": "Parse TXT files into the desired format of GraphJS library",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 71,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/_/txt-parser.js~TxtParser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/_/txt-parser.js~TxtParser#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/chart/area-chart.js",
+    "content": "import Chart from './chart'\nimport InvalidGrammarError from '../error/invalid-grammar-error'\n\nexport default class AreaChart extends Chart {\n\n\tconstructor(data) {\n\t\tsuper(data)\n\t}\n\n\tdo(grammar) {\n\t\tif (grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as area-spline'))) {\n\t\t\tlet areaSplineDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as area-spline'))[0].split(' ')[1]\n\t\t\tthis._outputJson.data.types[areaSplineDataLabel] = 'area-spline'\n\t\t} else if (grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as area'))) {\n\t\t\tlet areaDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as area'))[0].split(' ')[1]\n\t\t\tthis._outputJson.data.types[areaDataLabel] = 'area'\n\t\t} else {\n\t\t\tthrow new InvalidGrammarError()\n\t\t}\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/area-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "class",
+    "name": "AreaChart",
+    "memberof": "src/chart/area-chart.js",
+    "static": true,
+    "longname": "src/chart/area-chart.js~AreaChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/area-chart.js",
+    "importStyle": "AreaChart",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 74,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/area-chart.js~AreaChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/area-chart.js~AreaChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "method",
+    "name": "do",
+    "memberof": "src/chart/area-chart.js~AreaChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/area-chart.js~AreaChart#do",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/chart/bar-chart.js",
+    "content": "import Chart from './chart'\nimport InvalidGrammarError from '../error/invalid-grammar-error'\n\nexport default class BarChart extends Chart {\n\n\tconstructor(data) {\n\t\tsuper(data)\n\n\t\t// Set to bar chart\n\t\tthis._outputJson.data.type = 'bar'\n\t}\n\n\tdo(grammar) {\n\t\tif (grammar.match(new RegExp('set bar width as \\\\d+(\\\\.\\\\d+)*( pixels)?'))) {\n\t\t\tlet widthValue = grammar.match(new RegExp('set bar width as \\\\d+(\\\\.\\\\d+)*'))[0].split(' ')[4]\n\t\t\tif (grammar.match(new RegExp('pixels'))) {\n\t\t\t\tlet barWidthPixels = Number(widthValue)\n\t\t\t\tthis._outputJson['bar'] = {\n\t\t\t\t\t'width': barWidthPixels\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\tlet barWidthRatio = Number(widthValue)\n\t\t\t\tthis._outputJson['bar'] = {\n\t\t\t\t\t'width': {\n\t\t\t\t\t\t'ratio': barWidthRatio\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t} else {\n\t\t\tthrow new InvalidGrammarError()\n\t\t}\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/bar-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "class",
+    "name": "BarChart",
+    "memberof": "src/chart/bar-chart.js",
+    "static": true,
+    "longname": "src/chart/bar-chart.js~BarChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/bar-chart.js",
+    "importStyle": "BarChart",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 78,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/bar-chart.js~BarChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/bar-chart.js~BarChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "method",
+    "name": "do",
+    "memberof": "src/chart/bar-chart.js~BarChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/bar-chart.js~BarChart#do",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "name": "src/chart/chart-type.js",
+    "content": "import {Enum} from 'enumify'\n\nexport default class ChartType extends Enum {\n}\n\nChartType.initEnum([\n\t'LINE_CHART',\n\t'SIMPLE_XY_LINE_CHART',\n\t'STEP_CHART',\n\t'BAR_CHART',\n\t'PIE_CHART',\n\t'COMBINATION_CHART',\n\t'MULTIPLE_XY_LINE_CHART',\n\t'AREA_CHART',\n\t'STACKED_BAR_CHART',\n\t'DONUT_CHART',\n\t'SPLINE_CHART',\n\t'LINE_CHART_WITH_REGIONS',\n\t'STACKED_AREA_CHART',\n\t'SCATTER_PLOT',\n\t'GAUGE_CHART'\n])",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/chart-type.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 81,
+    "kind": "class",
+    "name": "ChartType",
+    "memberof": "src/chart/chart-type.js",
+    "static": true,
+    "longname": "src/chart/chart-type.js~ChartType",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/chart-type.js",
+    "importStyle": "ChartType",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "enumify~Enum"
+    ]
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "src/chart/chart.js",
+    "content": "import InvalidOperationError from '../error/invalid-operation-error'\n\nexport default class Chart {\n\n\tconstructor(data) {\n\t\tthis._data = data\n\n\t\t// Define output JSON\n\t\tthis._outputJson = {\n\t\t\t'data': {\n\t\t\t\t'x': undefined,\n\t\t\t\t'xs': {},\n\t\t\t\t'columns': [],\n\t\t\t\t'types': {},\n\t\t\t\t'groups': [],\n\t\t\t\t'type': undefined\n\t\t\t},\n\t\t\t'bar': {\n\t\t\t\t'width': {\n\t\t\t\t\t'ratio': undefined\n\t\t\t\t}\n\t\t\t},\n\t\t\t'donut': {\n\t\t\t\t'title': undefined\n\t\t\t}\n\t\t}\n\n\t\t// Add _data\n\t\tlet dataJson = JSON.parse(this._data)\n\t\tfor (let i in dataJson) {\n\t\t\tthis._outputJson.data.columns.push([i, ...dataJson[i]])\n\t\t}\n\t}\n\n\t// eslint-disable-next-line no-unused-vars\n\tdo(grammar) {\n\t\tthrow new InvalidOperationError()\n\t}\n\n\tgenerateJson() {\n\t\treturn this._outputJson\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "class",
+    "name": "Chart",
+    "memberof": "src/chart/chart.js",
+    "static": true,
+    "longname": "src/chart/chart.js~Chart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/chart.js",
+    "importStyle": "Chart",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 84,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/chart.js~Chart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/chart.js~Chart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true
+  },
+  {
+    "__docId__": 85,
+    "kind": "member",
+    "name": "_data",
+    "memberof": "src/chart/chart.js~Chart",
+    "static": false,
+    "longname": "src/chart/chart.js~Chart#_data",
+    "access": "private",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "member",
+    "name": "_outputJson",
+    "memberof": "src/chart/chart.js~Chart",
+    "static": false,
+    "longname": "src/chart/chart.js~Chart#_outputJson",
+    "access": "private",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"data\": *, \"bar\": *, \"donut\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "method",
+    "name": "do",
+    "memberof": "src/chart/chart.js~Chart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/chart.js~Chart#do",
+    "access": "public",
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 88,
+    "kind": "method",
+    "name": "generateJson",
+    "memberof": "src/chart/chart.js~Chart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/chart.js~Chart#generateJson",
+    "access": "public",
+    "description": null,
+    "lineNumber": 40,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "file",
+    "name": "src/chart/donut-chart.js",
+    "content": "import Chart from './chart'\nimport InvalidGrammarError from '../error/invalid-grammar-error'\n\nexport default class DonutChart extends Chart {\n\n\tconstructor(data) {\n\t\tsuper(data)\n\n\t\t// Set chart type as Donut Chart\n\t\tthis._outputJson.data.type = 'donut'\n\t}\n\n\tdo(grammar) {\n\t\tif (grammar.match(new RegExp('set title as [0-9a-zA-Z\\\\-]+'))) {\n\t\t\tlet chartTitle = grammar.match(new RegExp('as [0-9a-zA-Z\\\\-]+'))[0].split(' ')[1]\n\t\t\tthis._outputJson.donut.title = chartTitle\n\t\t} else {\n\t\t\tthrow new InvalidGrammarError()\n\t\t}\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/donut-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 90,
+    "kind": "class",
+    "name": "DonutChart",
+    "memberof": "src/chart/donut-chart.js",
+    "static": true,
+    "longname": "src/chart/donut-chart.js~DonutChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/donut-chart.js",
+    "importStyle": "DonutChart",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 91,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/donut-chart.js~DonutChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/donut-chart.js~DonutChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 92,
+    "kind": "method",
+    "name": "do",
+    "memberof": "src/chart/donut-chart.js~DonutChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/donut-chart.js~DonutChart#do",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 93,
+    "kind": "file",
+    "name": "src/chart/line-chart.js",
+    "content": "import Chart from './chart'\n\nexport default class LineChart extends Chart {\n\n\tconstructor(data) {\n\t\tsuper(data)\n\t}\n\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/line-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 94,
+    "kind": "class",
+    "name": "LineChart",
+    "memberof": "src/chart/line-chart.js",
+    "static": true,
+    "longname": "src/chart/line-chart.js~LineChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/line-chart.js",
+    "importStyle": "LineChart",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 95,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/line-chart.js~LineChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/line-chart.js~LineChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true
+  },
+  {
+    "__docId__": 96,
+    "kind": "file",
+    "name": "src/chart/multiple-xy-line-chart.js",
+    "content": "import Chart from './chart'\nimport InvalidGrammarError from '../error/invalid-grammar-error'\n\nexport default class MultipleXYLineChart extends Chart {\n\n\tconstructor(data) {\n\t\tsuper(data)\n\t}\n\n\tdo(grammar) {\n\t\tif (grammar.match(new RegExp('set [0-9a-zA-Z\\\\-]+ for [0-9a-zA-Z\\\\-]+'))) {\n\t\t\tlet p1 = grammar.match(new RegExp('set [0-9a-zA-Z\\\\-]+ for'))[0].split(' ')[1]\n\t\t\tlet p2 = grammar.match(new RegExp('for [0-9a-zA-Z\\\\-]+'))[0].split(' ')[1]\n\t\t\tthis._outputJson.data.xs[p1] = p2\n\t\t} else {\n\t\t\tthrow new InvalidGrammarError()\n\t\t}\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/multiple-xy-line-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 97,
+    "kind": "class",
+    "name": "MultipleXYLineChart",
+    "memberof": "src/chart/multiple-xy-line-chart.js",
+    "static": true,
+    "longname": "src/chart/multiple-xy-line-chart.js~MultipleXYLineChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/multiple-xy-line-chart.js",
+    "importStyle": "MultipleXYLineChart",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 98,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/multiple-xy-line-chart.js~MultipleXYLineChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/multiple-xy-line-chart.js~MultipleXYLineChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 99,
+    "kind": "method",
+    "name": "do",
+    "memberof": "src/chart/multiple-xy-line-chart.js~MultipleXYLineChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/multiple-xy-line-chart.js~MultipleXYLineChart#do",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 100,
+    "kind": "file",
+    "name": "src/chart/pie-chart.js",
+    "content": "import Chart from './chart'\n\nexport default class PieChart extends Chart {\n\n\tconstructor(data) {\n\t\tsuper(data)\n\n\t\t// Set chart type as Pie\n\t\tthis._outputJson.data.type = 'pie'\n\t}\n\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/pie-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 101,
+    "kind": "class",
+    "name": "PieChart",
+    "memberof": "src/chart/pie-chart.js",
+    "static": true,
+    "longname": "src/chart/pie-chart.js~PieChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/pie-chart.js",
+    "importStyle": "PieChart",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 102,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/pie-chart.js~PieChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/pie-chart.js~PieChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true
+  },
+  {
+    "__docId__": 103,
+    "kind": "file",
+    "name": "src/chart/simple-xy-line-chart.js",
+    "content": "import Chart from './chart'\nimport InvalidGrammarError from '../error/invalid-grammar-error'\n\nexport default class SimpleXYLineChart extends Chart {\n\n\tconstructor(data) {\n\t\tsuper(data)\n\t}\n\n\tdo(grammar) {\n\t\tif (grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as [xX]'))) {\n\t\t\tlet xAxisDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as'))[0].split(' ')[1]\n\t\t\tthis._outputJson.data.x = xAxisDataLabel\n\t\t} else {\n\t\t\tthrow new InvalidGrammarError()\n\t\t}\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/simple-xy-line-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 104,
+    "kind": "class",
+    "name": "SimpleXYLineChart",
+    "memberof": "src/chart/simple-xy-line-chart.js",
+    "static": true,
+    "longname": "src/chart/simple-xy-line-chart.js~SimpleXYLineChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/simple-xy-line-chart.js",
+    "importStyle": "SimpleXYLineChart",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 105,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/simple-xy-line-chart.js~SimpleXYLineChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/simple-xy-line-chart.js~SimpleXYLineChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 106,
+    "kind": "method",
+    "name": "do",
+    "memberof": "src/chart/simple-xy-line-chart.js~SimpleXYLineChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/simple-xy-line-chart.js~SimpleXYLineChart#do",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 107,
+    "kind": "file",
+    "name": "src/chart/spline-chart.js",
+    "content": "import Chart from './chart'\n\nexport default class SplineChart extends Chart {\n\n\tconstructor(data) {\n\t\tsuper(data)\n\n\t\t// Set type as Spline Chart\n\t\tthis._outputJson.data.type = 'spline'\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/spline-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 108,
+    "kind": "class",
+    "name": "SplineChart",
+    "memberof": "src/chart/spline-chart.js",
+    "static": true,
+    "longname": "src/chart/spline-chart.js~SplineChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/spline-chart.js",
+    "importStyle": "SplineChart",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 109,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/spline-chart.js~SplineChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/spline-chart.js~SplineChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true
+  },
+  {
+    "__docId__": 110,
+    "kind": "file",
+    "name": "src/chart/stacked-area-chart.js",
+    "content": "import Chart from './chart'\nimport InvalidGrammarError from '../error/invalid-grammar-error'\n\nexport default class StackedAreaChart extends Chart {\n\n\tconstructor(data) {\n\t\tsuper(data)\n\t}\n\n\tdo(grammar) {\n\t\tif (grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as area-spline'))) {\n\t\t\tlet areaSplineDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as area-spline'))[0].split(' ')[1]\n\t\t\tthis._outputJson.data.types[areaSplineDataLabel] = 'area-spline'\n\t\t} else if (grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as area'))) {\n\t\t\tlet areaDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as spline'))[0].split(' ')[1]\n\t\t\tthis._outputJson.data.types[areaDataLabel] = 'area'\n\t\t} else if (grammar.match(new RegExp('group [0-9a-zA-Z\\\\-]+[\\\\s]*(,[\\\\s]*)+[0-9a-zA-Z\\\\-]+'))) {\n\t\t\tlet labelList = grammar.match(new RegExp(' [0-9a-zA-Z\\\\-]+[\\\\s]*(,[\\\\s]*)+[0-9a-zA-Z\\\\-]+'))[0].split(',')\n\t\t\tlabelList = labelList.map(e => e.trim())\n\t\t\tthis._outputJson.data.groups.push(labelList)\n\t\t} else {\n\t\t\tthrow new InvalidGrammarError()\n\t\t}\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/stacked-area-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 111,
+    "kind": "class",
+    "name": "StackedAreaChart",
+    "memberof": "src/chart/stacked-area-chart.js",
+    "static": true,
+    "longname": "src/chart/stacked-area-chart.js~StackedAreaChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/stacked-area-chart.js",
+    "importStyle": "StackedAreaChart",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 112,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/stacked-area-chart.js~StackedAreaChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/stacked-area-chart.js~StackedAreaChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 113,
+    "kind": "method",
+    "name": "do",
+    "memberof": "src/chart/stacked-area-chart.js~StackedAreaChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/stacked-area-chart.js~StackedAreaChart#do",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 114,
+    "kind": "file",
+    "name": "src/chart/stacked-bar-chart.js",
+    "content": "import Chart from './chart'\nimport InvalidGrammarError from '../error/invalid-grammar-error'\n\nexport default class StackedBarChart extends Chart {\n\n\tconstructor(data) {\n\t\tsuper(data)\n\n\t\t// Set type as Bar Chart\n\t\tthis._outputJson.data.type = 'bar'\n\t}\n\n\tdo(grammar) {\n\t\tif (grammar.match(new RegExp('group [0-9a-zA-Z\\\\-]+[\\\\s]*(,[\\\\s]*)+[0-9a-zA-Z\\\\-]+'))) {\n\t\t\tlet labelList = grammar.match(new RegExp(' [0-9a-zA-Z\\\\-]+[\\\\s]*(,[\\\\s]*)+[0-9a-zA-Z\\\\-]+'))[0].split(',')\n\t\t\tlabelList = labelList.map(e => e.trim())\n\t\t\tthis._outputJson.data.groups.push(labelList)\n\t\t} else {\n\t\t\tthrow new InvalidGrammarError()\n\t\t}\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/stacked-bar-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 115,
+    "kind": "class",
+    "name": "StackedBarChart",
+    "memberof": "src/chart/stacked-bar-chart.js",
+    "static": true,
+    "longname": "src/chart/stacked-bar-chart.js~StackedBarChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/stacked-bar-chart.js",
+    "importStyle": "StackedBarChart",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 116,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/stacked-bar-chart.js~StackedBarChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/stacked-bar-chart.js~StackedBarChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 117,
+    "kind": "method",
+    "name": "do",
+    "memberof": "src/chart/stacked-bar-chart.js~StackedBarChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/stacked-bar-chart.js~StackedBarChart#do",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 118,
+    "kind": "file",
+    "name": "src/chart/step-chart.js",
+    "content": "import Chart from './chart'\nimport InvalidGrammarError from '../error/invalid-grammar-error'\n\nexport default class StepChart extends Chart {\n\n\tconstructor(data) {\n\t\tsuper(data)\n\t}\n\n\tdo(grammar) {\n\t\tif (grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as area-step'))) {\n\t\t\tthis._areaStepDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as area-step'))[0].split(' ')[1]\n\t\t\tthis._outputJson.data.types[this._areaStepDataLabel] = 'area-step'\n\t\t} else if (grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as step'))) {\n\t\t\tthis._stepDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\\\-]+ as step'))[0].split(' ')[1]\n\t\t\tthis._outputJson.data.types[this._stepDataLabel] = 'step'\n\t\t} else {\n\t\t\tthrow new InvalidGrammarError()\n\t\t}\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/chart/step-chart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 119,
+    "kind": "class",
+    "name": "StepChart",
+    "memberof": "src/chart/step-chart.js",
+    "static": true,
+    "longname": "src/chart/step-chart.js~StepChart",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/chart/step-chart.js",
+    "importStyle": "StepChart",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/chart/chart.js~Chart"
+    ]
+  },
+  {
+    "__docId__": 120,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/chart/step-chart.js~StepChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/step-chart.js~StepChart#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 121,
+    "kind": "method",
+    "name": "do",
+    "memberof": "src/chart/step-chart.js~StepChart",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/chart/step-chart.js~StepChart#do",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 122,
+    "kind": "member",
+    "name": "_areaStepDataLabel",
+    "memberof": "src/chart/step-chart.js~StepChart",
+    "static": false,
+    "longname": "src/chart/step-chart.js~StepChart#_areaStepDataLabel",
+    "access": "private",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 123,
+    "kind": "member",
+    "name": "_stepDataLabel",
+    "memberof": "src/chart/step-chart.js~StepChart",
+    "static": false,
+    "longname": "src/chart/step-chart.js~StepChart#_stepDataLabel",
+    "access": "private",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 124,
+    "kind": "file",
+    "name": "src/error/invalid-grammar-error.js",
+    "content": "import ExtendableError from 'es6-error'\n\n/**\n * Thrown when the grammar is invalid\n */\nexport default class InvalidGrammarError extends ExtendableError {\n\n\t/**\n\t * Creates an instance of InvalidGrammarError.\n\t * @param {string} message - Error message.\n\t */\n\tconstructor(message = 'Invalid grammar') {\n\t\tsuper(message)\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/error/invalid-grammar-error.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 125,
+    "kind": "class",
+    "name": "InvalidGrammarError",
+    "memberof": "src/error/invalid-grammar-error.js",
+    "static": true,
+    "longname": "src/error/invalid-grammar-error.js~InvalidGrammarError",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/error/invalid-grammar-error.js",
+    "importStyle": "InvalidGrammarError",
+    "description": "Thrown when the grammar is invalid",
+    "lineNumber": 6,
+    "interface": false,
+    "extends": [
+      "es6-error~ExtendableError"
+    ]
+  },
+  {
+    "__docId__": 126,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/error/invalid-grammar-error.js~InvalidGrammarError",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/error/invalid-grammar-error.js~InvalidGrammarError#constructor",
+    "access": "public",
+    "description": "Creates an instance of InvalidGrammarError.",
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": "Error message."
+      }
+    ]
+  },
+  {
+    "__docId__": 127,
+    "kind": "file",
+    "name": "src/error/invalid-operation-error.js",
+    "content": "import ExtendableError from 'es6-error'\n\n/**\n * Thrown when the operation called for was not implemented / relevant for the context\n */\nexport default class InvalidOperationError extends ExtendableError {\n\n\t/**\n\t * Creates an instance of InvalidOperationError.\n\t * @param {string} message - Error message.\n\t */\n\tconstructor(message = 'Invalid operation') {\n\t\tsuper(message)\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/error/invalid-operation-error.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 128,
+    "kind": "class",
+    "name": "InvalidOperationError",
+    "memberof": "src/error/invalid-operation-error.js",
+    "static": true,
+    "longname": "src/error/invalid-operation-error.js~InvalidOperationError",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/error/invalid-operation-error.js",
+    "importStyle": "InvalidOperationError",
+    "description": "Thrown when the operation called for was not implemented / relevant for the context",
+    "lineNumber": 6,
+    "interface": false,
+    "extends": [
+      "es6-error~ExtendableError"
+    ]
+  },
+  {
+    "__docId__": 129,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/error/invalid-operation-error.js~InvalidOperationError",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/error/invalid-operation-error.js~InvalidOperationError#constructor",
+    "access": "public",
+    "description": "Creates an instance of InvalidOperationError.",
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": "Error message."
+      }
+    ]
+  },
+  {
+    "__docId__": 130,
+    "kind": "file",
+    "name": "src/graph.js",
+    "content": "import ChartType from './chart/chart-type'\nimport LineChart from './chart/line-chart'\nimport SimpleXYLineChart from './chart/simple-xy-line-chart'\nimport StepChart from './chart/step-chart'\nimport BarChart from './chart/bar-chart'\nimport PieChart from './chart/pie-chart'\nimport CombinationChart from './_/combination-chart'\nimport MultipleXYLineChart from './chart/multiple-xy-line-chart'\nimport AreaChart from './chart/area-chart'\nimport StackedBarChart from './chart/stacked-bar-chart'\nimport DonutChart from './chart/donut-chart'\nimport SplineChart from './chart/spline-chart'\nimport LineChartWithRegions from './_/line-chart-with-regions'\nimport StackedAreaChart from './chart/stacked-area-chart'\nimport ScatterPlot from './_/scatter-plot'\nimport GaugeChart from './_/gauge-chart'\nimport InvalidGrammarError from './error/invalid-grammar-error'\n\nexport default class Graph {\n\n\t// generate <graph_type> for <datasource>\n\tconstructor(grammar) {\n\t\tthis._chart = undefined\n\n\t\t// Validate and parse the grammar\n\t\tlet grammarParser = new GrammarParser(grammar)\n\n\t\tlet chartType = grammarParser.chartType\n\t\tswitch (ChartType.enumValueOf(chartType)) {\n\t\tcase ChartType.LINE_CHART:\n\t\t\tthis._chart = new LineChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.SIMPLE_XY_LINE_CHART:\n\t\t\tthis._chart = new SimpleXYLineChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.STEP_CHART:\n\t\t\tthis._chart = new StepChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.BAR_CHART:\n\t\t\tthis._chart = new BarChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.PIE_CHART:\n\t\t\tthis._chart = new PieChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.COMBINATION_CHART:\n\t\t\tthis._chart = new CombinationChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.MULTIPLE_XY_LINE_CHART:\n\t\t\tthis._chart = new MultipleXYLineChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.AREA_CHART:\n\t\t\tthis._chart = new AreaChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.STACKED_BAR_CHART:\n\t\t\tthis._chart = new StackedBarChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.DONUT_CHART:\n\t\t\tthis._chart = new DonutChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.SPLINE_CHART:\n\t\t\tthis._chart = new SplineChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.LINE_CHART_WITH_REGIONS:\n\t\t\tthis._chart = new LineChartWithRegions(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.STACKED_AREA_CHART:\n\t\t\tthis._chart = new StackedAreaChart(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.SCATTER_PLOT:\n\t\t\tthis._chart = new ScatterPlot(grammarParser.datasource)\n\t\t\tbreak\n\n\t\tcase ChartType.GAUGE_CHART:\n\t\t\tthis._chart = new GaugeChart(grammarParser.datasource)\n\t\t\tbreak\n\t\t}\n\t}\n\n\tdo(grammar) {\n\t\treturn this._chart.do(grammar)\n\t}\n\n\tgenerateJson() {\n\t\treturn this._chart.generateJson()\n\t}\n}\n\nclass GrammarParser {\n\n\tconstructor(grammar) {\n\t\tthis.grammar = grammar\n\t\tthis.chartType = undefined\n\t\tthis.datasource = undefined\n\n\t\t// Verify the basic structure of the grammar\n\t\tif (GrammarParser.verifyStructure(grammar)) {\n\t\t\tlet chartTypeExtract = grammar.match(new RegExp('generate [A-Z_]+ for'))[0]\n\t\t\tthis.chartType = chartTypeExtract.slice(9, chartTypeExtract.length - 4)\n\t\t\tthis.datasource = grammar.match(new RegExp('for {.*}'))[0].slice(4)\n\n\t\t\t// Verify the chart type and the datasource\n\t\t\tif (!GrammarParser.verifyChartType(this.chartType) || !GrammarParser.verifyDatasource(this.datasource)) {\n\t\t\t\tthrow new InvalidGrammarError()\n\t\t\t}\n\t\t} else {\n\t\t\tthrow new InvalidGrammarError()\n\t\t}\n\t}\n\n\tstatic verifyStructure(grammar) {\n\t\treturn grammar.match(new RegExp('generate [A-Z_]+ for {.*}'))\n\t}\n\n\tstatic verifyChartType(chartType) {\n\t\treturn ChartType.enumValueOf(chartType) instanceof ChartType\n\t}\n\n\t// eslint-disable-next-line no-unused-vars\n\tstatic verifyDatasource(grammar) {\n\t\t// TODO : Verify datasource\n\t\treturn true\n\t}\n}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/graph.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 131,
+    "kind": "class",
+    "name": "Graph",
+    "memberof": "src/graph.js",
+    "static": true,
+    "longname": "src/graph.js~Graph",
+    "access": "public",
+    "export": true,
+    "importPath": "graphjs/src/graph.js",
+    "importStyle": "Graph",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 132,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/graph.js~Graph",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/graph.js~Graph#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true
+  },
+  {
+    "__docId__": 133,
+    "kind": "member",
+    "name": "_chart",
+    "memberof": "src/graph.js~Graph",
+    "static": false,
+    "longname": "src/graph.js~Graph#_chart",
+    "access": "private",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 149,
+    "kind": "method",
+    "name": "do",
+    "memberof": "src/graph.js~Graph",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/graph.js~Graph#do",
+    "access": "public",
+    "description": null,
+    "lineNumber": 92,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 150,
+    "kind": "method",
+    "name": "generateJson",
+    "memberof": "src/graph.js~Graph",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/graph.js~Graph#generateJson",
+    "access": "public",
+    "description": null,
+    "lineNumber": 96,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 151,
+    "kind": "class",
+    "name": "GrammarParser",
+    "memberof": "src/graph.js",
+    "static": true,
+    "longname": "src/graph.js~GrammarParser",
+    "access": "public",
+    "export": false,
+    "importPath": "graphjs/src/graph.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 101,
+    "undocument": true,
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 152,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/graph.js~GrammarParser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/graph.js~GrammarParser#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 103,
+    "undocument": true
+  },
+  {
+    "__docId__": 153,
+    "kind": "member",
+    "name": "grammar",
+    "memberof": "src/graph.js~GrammarParser",
+    "static": false,
+    "longname": "src/graph.js~GrammarParser#grammar",
+    "access": "public",
+    "description": null,
+    "lineNumber": 104,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 154,
+    "kind": "member",
+    "name": "chartType",
+    "memberof": "src/graph.js~GrammarParser",
+    "static": false,
+    "longname": "src/graph.js~GrammarParser#chartType",
+    "access": "public",
+    "description": null,
+    "lineNumber": 105,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 155,
+    "kind": "member",
+    "name": "datasource",
+    "memberof": "src/graph.js~GrammarParser",
+    "static": false,
+    "longname": "src/graph.js~GrammarParser#datasource",
+    "access": "public",
+    "description": null,
+    "lineNumber": 106,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 158,
+    "kind": "method",
+    "name": "verifyStructure",
+    "memberof": "src/graph.js~GrammarParser",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/graph.js~GrammarParser.verifyStructure",
+    "access": "public",
+    "description": null,
+    "lineNumber": 123,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 159,
+    "kind": "method",
+    "name": "verifyChartType",
+    "memberof": "src/graph.js~GrammarParser",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/graph.js~GrammarParser.verifyChartType",
+    "access": "public",
+    "description": null,
+    "lineNumber": 127,
+    "undocument": true,
+    "params": [
+      {
+        "name": "chartType",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 160,
+    "kind": "method",
+    "name": "verifyDatasource",
+    "memberof": "src/graph.js~GrammarParser",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/graph.js~GrammarParser.verifyDatasource",
+    "access": "public",
+    "description": null,
+    "lineNumber": 132,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 161,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import Graph from './graph'\n\nexport {Graph}",
+    "static": true,
+    "longname": "/Users/ivantha/Git/GraphJS/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "# GraphJS\noshan.ivantha@gmail.com Oshan Mudannayake OshanIvantha IA6\n\n[![Build Status](https://travis-ci.org/OshanIvantha/GraphJS.svg?branch=master)](https://travis-ci.org/OshanIvantha/GraphJS) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4eba90e2fb9c434d81180ea077e09b03)](https://www.codacy.com/app/OshanIvantha/GraphJS?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OshanIvantha/GraphJS&amp;utm_campaign=Badge_Grade)\n\n## Task\n`IA6` : A simple grammar to convert raw(json/csv/tsv..etc) data into visual graphs(bar/line/pie charts ..etc).\neg :- \"Draw Bar_graph for DataSource:AA with (X:time,Y:count) \" will draw a bar graph for AA data source. you can use graph visualization js libraries like c3/d3 .. etc and conversion will be have this kind of flow. raw data (json/csv) + grammar ---> json object with suitable configurations ---> convert into graphs. Todo - design a suitable grammar, create a parser for that grammar and simple compiler to convert that strings into intermidiate json object. \n",
+    "longname": "/Users/ivantha/Git/GraphJS/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"graphjs\",\n  \"version\": \"1.0.0\",\n  \"description\": \"A simple grammar to convert raw data into visual graphs\",\n  \"main\": \"build/bundle.min.js\",\n  \"scripts\": {\n    \"clean\": \"rm -rf dist/* && rm -rf docs/*\",\n    \"test\": \"nyc --reporter=html --reporter=text mocha --require babel-core/register test/**/*.spec.js\",\n    \"build\": \"npm run clean && npm run babel && npm run webpack && npm run esdoc\",\n    \"webpack\": \"webpack\",\n    \"babel\": \"babel --presets es2015 src --out-dir dist/src\",\n    \"esdoc\": \"esdoc && cp -r ./dist/docs ./docs\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/codezilla2018/GraphJS.git\"\n  },\n  \"keywords\": [\n    \"charts\"\n  ],\n  \"author\": \"O.I. Mudannayake <oshan.ivantha@gmail.com>\",\n  \"license\": \"MIT\",\n  \"bugs\": {\n    \"url\": \"https://github.com/codezilla2018/GraphJS/issues\"\n  },\n  \"homepage\": \"https://github.com/codezilla2018/GraphJS#readme\",\n  \"dependencies\": {\n    \"c3\": \"^0.4.23\",\n    \"d3\": \"^5.4.0\",\n    \"enumify\": \"^1.0.4\",\n    \"es6-error\": \"^4.1.1\",\n    \"npm\": \"^6.0.1\"\n  },\n  \"devDependencies\": {\n    \"babel-cli\": \"^6.26.0\",\n    \"babel-core\": \"^6.26.3\",\n    \"babel-loader\": \"^7.1.4\",\n    \"babel-preset-es2015\": \"^6.24.1\",\n    \"chai\": \"^4.1.2\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.19.1\",\n    \"eslint-loader\": \"^2.0.0\",\n    \"html-webpack-plugin\": \"^3.2.0\",\n    \"istanbul\": \"^0.4.5\",\n    \"lodash\": \"^4.17.10\",\n    \"mocha\": \"^5.2.0\",\n    \"nyc\": \"^11.8.0\",\n    \"webpack\": \"^4.8.3\",\n    \"webpack-cli\": \"^2.1.3\"\n  }\n}\n",
+    "longname": "/Users/ivantha/Git/GraphJS/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

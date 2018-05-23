@@ -5,4 +5,5 @@ export default class ScatterPlot extends Chart {
 	constructor() {
 		super()
 	}
+
 }
