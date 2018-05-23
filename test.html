@@ -9,19 +9,185 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
 
-    <script type="text/javascript" src="./dist/bundle.min.js"></script>
+    <script type="text/javascript" src="./dist/browser/bundle.min.js"></script>
 </head>
 <body>
 <div id="chart"></div>
 <script type="text/javascript">
-	var sampleData = {
+	// Line chart
+	// var sampleData = {
+	// 	"data1": [30, 200, 100, 400, 150, 250],
+	//     "data2": [50, 20, 10, 40, 15, 25]
+	// }
+	// var gf = new Graph(`generate LINE_CHART for ${JSON.stringify(sampleData)}`)
 
-	}
 
-	var gf = new Graph(`generate PIE_CHART for ${JSON.stringify(sampleData)}`)
+	// Scatter plot
+	// var sampleData = {
+	// 	"setosa_x": [3.5, 3.0, 3.2, 3.1, 3.6, 3.9, 3.4, 3.4, 2.9, 3.1, 3.7, 3.4, 3.0, 3.0, 4.0, 4.4, 3.9, 3.5, 3.8, 3.8, 3.4, 3.7, 3.6, 3.3, 3.4, 3.0, 3.4, 3.5, 3.4, 3.2, 3.1, 3.4, 4.1, 4.2, 3.1, 3.2, 3.5, 3.6, 3.0, 3.4, 3.5, 2.3, 3.2, 3.5, 3.8, 3.0, 3.8, 3.2, 3.7, 3.3],
+	// 	"versicolor_x": [3.2, 3.2, 3.1, 2.3, 2.8, 2.8, 3.3, 2.4, 2.9, 2.7, 2.0, 3.0, 2.2, 2.9, 2.9, 3.1, 3.0, 2.7, 2.2, 2.5, 3.2, 2.8, 2.5, 2.8, 2.9, 3.0, 2.8, 3.0, 2.9, 2.6, 2.4, 2.4, 2.7, 2.7, 3.0, 3.4, 3.1, 2.3, 3.0, 2.5, 2.6, 3.0, 2.6, 2.3, 2.7, 3.0, 2.9, 2.9, 2.5, 2.8],
+	// 	"setosa": [0.2, 0.2, 0.2, 0.2, 0.2, 0.4, 0.3, 0.2, 0.2, 0.1, 0.2, 0.2, 0.1, 0.1, 0.2, 0.4, 0.4, 0.3, 0.3, 0.3, 0.2, 0.4, 0.2, 0.5, 0.2, 0.2, 0.4, 0.2, 0.2, 0.2, 0.2, 0.4, 0.1, 0.2, 0.2, 0.2, 0.2, 0.1, 0.2, 0.2, 0.3, 0.3, 0.2, 0.6, 0.4, 0.3, 0.2, 0.2, 0.2, 0.2],
+	// 	"versicolor": [1.4, 1.5, 1.5, 1.3, 1.5, 1.3, 1.6, 1.0, 1.3, 1.4, 1.0, 1.5, 1.0, 1.4, 1.3, 1.4, 1.5, 1.0, 1.5, 1.1, 1.8, 1.3, 1.5, 1.2, 1.3, 1.4, 1.4, 1.7, 1.5, 1.0, 1.1, 1.0, 1.2, 1.6, 1.5, 1.6, 1.5, 1.3, 1.3, 1.3, 1.2, 1.4, 1.2, 1.0, 1.3, 1.2, 1.3, 1.3, 1.1, 1.3]
+	// }
+	// var gf = new Graph(`generate SCATTER_PLOT for ${JSON.stringify(sampleData)}`)
+
+
+	// Area Chart
+	// var sampleData = {
+	// 	"data1": [300, 350, 300, 0, 0, 0],
+	// 	"data2": [130, 100, 140, 200, 150, 50]
+	// }
+	// var gf = new Graph(`generate AREA_CHART for ${JSON.stringify(sampleData)}`)
+	// gf.do('where data1 as area')
+	// gf.do('where data2 as area-spline')
+
+
+	// Bar Chart
+	// var sampleData = {
+	// 	"data1": [300, 350, 300, 0, 0, 100],
+	// 	"data2": [130, 100, 140, 200, 150, 50]
+	// }
+	// var gf = new Graph(`generate BAR_CHART for ${JSON.stringify(sampleData)}`)
 	// gf.do('set bar width as 0.5')
-	console.log(gf.generateJson())
+	// gf.do('set bar width as 100 pixels')
 
+
+    // Pie Chart
+    // var sampleData = {
+		// "setosa": [0.2, 0.2, 0.2, 0.2, 0.2, 0.4, 0.3, 0.2, 0.2, 0.1, 0.2, 0.2, 0.1, 0.1, 0.2, 0.4, 0.4, 0.3, 0.3, 0.3, 0.2, 0.4, 0.2, 0.5, 0.2, 0.2, 0.4, 0.2, 0.2, 0.2, 0.2, 0.4, 0.1, 0.2, 0.2, 0.2, 0.2, 0.1, 0.2, 0.2, 0.3, 0.3, 0.2, 0.6, 0.4, 0.3, 0.2, 0.2, 0.2, 0.2],
+		// "versicolor": [1.4, 1.5, 1.5, 1.3, 1.5, 1.3, 1.6, 1.0, 1.3, 1.4, 1.0, 1.5, 1.0, 1.4, 1.3, 1.4, 1.5, 1.0, 1.5, 1.1, 1.8, 1.3, 1.5, 1.2, 1.3, 1.4, 1.4, 1.7, 1.5, 1.0, 1.1, 1.0, 1.2, 1.6, 1.5, 1.6, 1.5, 1.3, 1.3, 1.3, 1.2, 1.4, 1.2, 1.0, 1.3, 1.2, 1.3, 1.3, 1.1, 1.3],
+		// "virginica": [2.5, 1.9, 2.1, 1.8, 2.2, 2.1, 1.7, 1.8, 1.8, 2.5, 2.0, 1.9, 2.1, 2.0, 2.4, 2.3, 1.8, 2.2, 2.3, 1.5, 2.3, 2.0, 2.0, 1.8, 2.1, 1.8, 1.8, 1.8, 2.1, 1.6, 1.9, 2.0, 2.2, 1.5, 1.4, 2.3, 2.4, 1.8, 1.8, 2.1, 2.4, 2.3, 1.9, 2.3, 2.5, 2.3, 1.9, 2.0, 2.3, 1.8]
+    // }
+    // var gf = new Graph(`generate PIE_CHART for ${JSON.stringify(sampleData)}`)
+
+
+	// Donut Chart
+	// var sampleData = {
+	// 	"setosa": [0.2, 0.2, 0.2, 0.2, 0.2, 0.4, 0.3, 0.2, 0.2, 0.1, 0.2, 0.2, 0.1, 0.1, 0.2, 0.4, 0.4, 0.3, 0.3, 0.3, 0.2, 0.4, 0.2, 0.5, 0.2, 0.2, 0.4, 0.2, 0.2, 0.2, 0.2, 0.4, 0.1, 0.2, 0.2, 0.2, 0.2, 0.1, 0.2, 0.2, 0.3, 0.3, 0.2, 0.6, 0.4, 0.3, 0.2, 0.2, 0.2, 0.2],
+	// 	"versicolor": [1.4, 1.5, 1.5, 1.3, 1.5, 1.3, 1.6, 1.0, 1.3, 1.4, 1.0, 1.5, 1.0, 1.4, 1.3, 1.4, 1.5, 1.0, 1.5, 1.1, 1.8, 1.3, 1.5, 1.2, 1.3, 1.4, 1.4, 1.7, 1.5, 1.0, 1.1, 1.0, 1.2, 1.6, 1.5, 1.6, 1.5, 1.3, 1.3, 1.3, 1.2, 1.4, 1.2, 1.0, 1.3, 1.2, 1.3, 1.3, 1.1, 1.3],
+	// 	"virginica": [2.5, 1.9, 2.1, 1.8, 2.2, 2.1, 1.7, 1.8, 1.8, 2.5, 2.0, 1.9, 2.1, 2.0, 2.4, 2.3, 1.8, 2.2, 2.3, 1.5, 2.3, 2.0, 2.0, 1.8, 2.1, 1.8, 1.8, 1.8, 2.1, 1.6, 1.9, 2.0, 2.2, 1.5, 1.4, 2.3, 2.4, 1.8, 1.8, 2.1, 2.4, 2.3, 1.9, 2.3, 2.5, 2.3, 1.9, 2.0, 2.3, 1.8]
+	// }
+	// var gf = new Graph(`generate DONUT_CHART for ${JSON.stringify(sampleData)}`)
+	// gf.do('set title as my-donut')
+
+
+	// Multiple XY Line Chart
+	// var sampleData = {
+	// 	"x1": [10, 30, 45, 50, 70, 100],
+	// 	"x2": [30, 50, 75, 100, 120],
+	// 	"data1": [30, 200, 100, 400, 150, 250],
+	// 	"data2": [20, 180, 240, 100, 190]
+	// }
+	// var gf = new Graph(`generate MULTIPLE_XY_LINE_CHART for ${JSON.stringify(sampleData)}`)
+	// gf.do('set data1 for x1')
+	// gf.do('set data2 for x2')
+
+
+	// Simple XY Line Chart
+	// var sampleData = {
+	// 	"myX": [30, 50, 100, 230, 300, 310],
+	// 	"data1": [30, 200, 100, 400, 150, 250],
+	// 	"data2": [130, 300, 200, 300, 250, 450]
+	// }
+	// var gf = new Graph(`generate SIMPLE_XY_LINE_CHART for ${JSON.stringify(sampleData)}`)
+	// gf.do('where myX as x')
+
+
+	// Spline Chart
+	// var sampleData = {
+	// 	"data1": [30, 200, 100, 400, 150, 250],
+	// 	"data2": [50, 20, 10, 40, 15, 25]
+	// }
+	// var gf = new Graph(`generate SPLINE_CHART for ${JSON.stringify(sampleData)}`)
+
+
+	// Step Chart
+	// var sampleData = {
+	// 	"data1": [300, 350, 300, 0, 0, 100],
+	// 	"data2": [130, 100, 140, 200, 150, 50]
+	// }
+	// var gf = new Graph(`generate STEP_CHART for ${JSON.stringify(sampleData)}`)
+	// gf.do('where data1 as step')
+	// gf.do('where data2 as area-step')
+
+
+	// Stacked Area Chart
+	// var sampleData = {
+	// 	"data1": [300, 350, 300, 0, 0, 120],
+	// 	"data2": [130, 100, 140, 200, 150, 50]
+	// }
+	// var gf = new Graph(`generate STACKED_AREA_CHART for ${JSON.stringify(sampleData)}`)
+	// gf.do('where data1 as area-spline')
+	// gf.do('where data2 as area-spline')
+	// gf.do('group data1, data2')
+
+
+	// Stacked Bar Chart
+	var sampleData = {
+		"data1": [-30, 200, 200, 400, -150, 250],
+		"data2": [130, 100, -100, 200, -150, 50],
+		"data3": [-230, 200, 200, -300, 250, 250]
+	}
+	var gf = new Graph(`generate STACKED_BAR_CHART for ${JSON.stringify(sampleData)}`)
+	gf.do('group data1, data2')
+
+
+    // Grid Lines
+    // gf.do('show grid x')
+    // gf.do('show grid Y')
+    // console.log(gf.generateJson())
+    // gf.do('hide grid x')
+
+
+    // Optional Grid Lines
+    // gf.do('set gridline y at 10 as custom-y')
+    // gf.do('set gridline x at 20 as another-x')
+
+
+    // Tooltip
+    // gf.do('show tooltip')
+    // gf.do('ungroup tooltip')
+    // gf.do('hide tooltip')
+	// gf.do('group tooltip')
+
+
+    // Line Chart hide points
+    // gf.do('hide points')
+
+
+    // Chart size
+    // gf.do('set height as 500')
+    // gf.do('set width as 1000')
+
+
+    // Legend
+    // gf.do('hide legend')
+    // gf.do('move legend to right')
+
+
+    // Interaction
+    // gf.do('show subchart')
+    // gf.do('enable zoom')
+
+
+    // Rotate axis
+    // gf.do('enable rotate')
+
+
+    // Axis labels
+    // gf.do('set x axis label as awesomeX')
+    // gf.do('set Y axis label as my-y')
+
+
+    // Axis boundaries
+    // gf.do('set x axis min as -50')
+    // gf.do('set x axis max as 65')
+
+    // Data labels
+    // gf.do('set data1 data label as monkey')
+    // gf.do('set data2 data label as cat')
+
+	console.log(gf.generateJson())
 	c3.generate(gf.generateJson())
 </script>
 </body>

@@ -4,7 +4,7 @@ var webpack = require('webpack')
 module.exports = {
 	entry: './src/index.js',
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'dist/browser'),
 		filename: 'bundle.min.js',
 		libraryTarget: 'umd'
 	},

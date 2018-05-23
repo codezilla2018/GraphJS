@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/graph.js | @ivantha/graphjs</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A simple grammar to convert raw data into visual graphs"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@ivantha/graphjs"><meta property="twitter:description" content="A simple grammar to convert raw data into visual graphs"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/codezilla2018/GraphJS"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/graph.js~Graph.html">Graph</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#chart">chart</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/area-chart.js~AreaChart.html">AreaChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/bar-chart.js~BarChart.html">BarChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/chart-type.js~ChartType.html">ChartType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/chart.js~Chart.html">Chart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/combination-chart.js~CombinationChart.html">CombinationChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/donut-chart.js~DonutChart.html">DonutChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/gauge-chart.js~GaugeChart.html">GaugeChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/line-chart-with-regions.js~LineChartWithRegions.html">LineChartWithRegions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/line-chart.js~LineChart.html">LineChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/multiple-xy-line-chart.js~MultipleXYLineChart.html">MultipleXYLineChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/pie-chart.js~PieChart.html">PieChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/scatter-plot.js~ScatterPlot.html">ScatterPlot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/simple-xy-line-chart.js~SimpleXYLineChart.html">SimpleXYLineChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/spline-chart.js~SplineChart.html">SplineChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/stacked-area-chart.js~StackedAreaChart.html">StackedAreaChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/stacked-bar-chart.js~StackedBarChart.html">StackedBarChart</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/chart/step-chart.js~StepChart.html">StepChart</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#error">error</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/error/invalid-grammar-error.js~InvalidGrammarError.html">InvalidGrammarError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/error/invalid-operation-error.js~InvalidOperationError.html">InvalidOperationError</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#parser">parser</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/parser/csv-parser.js~CsvParser.html">CsvParser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/parser/json-parser.js~JsonParser.html">JsonParser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/parser/tsv-parser.js~TsvParser.html">TsvParser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/parser/txt-parser.js~TxtParser.html">TxtParser</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/graph.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import ChartType from &apos;./chart/chart-type&apos;
+import LineChart from &apos;./chart/line-chart&apos;
+import SimpleXYLineChart from &apos;./chart/simple-xy-line-chart&apos;
+import StepChart from &apos;./chart/step-chart&apos;
+import BarChart from &apos;./chart/bar-chart&apos;
+import PieChart from &apos;./chart/pie-chart&apos;
+import CombinationChart from &apos;./chart/combination-chart&apos;
+import MultipleXYLineChart from &apos;./chart/multiple-xy-line-chart&apos;
+import AreaChart from &apos;./chart/area-chart&apos;
+import StackedBarChart from &apos;./chart/stacked-bar-chart&apos;
+import DonutChart from &apos;./chart/donut-chart&apos;
+import SplineChart from &apos;./chart/spline-chart&apos;
+import LineChartWithRegions from &apos;./chart/line-chart-with-regions&apos;
+import StackedAreaChart from &apos;./chart/stacked-area-chart&apos;
+import ScatterPlot from &apos;./chart/scatter-plot&apos;
+import GaugeChart from &apos;./chart/gauge-chart&apos;
+import InvalidGrammarError from &apos;./error/invalid-grammar-error&apos;
+import InvalidOperationError from &apos;./error/invalid-operation-error&apos;
+
+export default class Graph {
+
+	// generate &lt;graph_type&gt; for &lt;datasource&gt;
+	constructor(grammar) {
+		this._chart = undefined
+
+		// Validate and parse the grammar
+		let grammarParser = new GrammarParser(grammar)
+
+		let chartType = grammarParser.chartType
+		switch (ChartType.enumValueOf(chartType)) {
+		case ChartType.LINE_CHART:
+			this._chart = new LineChart(grammarParser.datasource)
+			break
+
+		case ChartType.SIMPLE_XY_LINE_CHART:
+			this._chart = new SimpleXYLineChart(grammarParser.datasource)
+			break
+
+		case ChartType.STEP_CHART:
+			this._chart = new StepChart(grammarParser.datasource)
+			break
+
+		case ChartType.BAR_CHART:
+			this._chart = new BarChart(grammarParser.datasource)
+			break
+
+		case ChartType.PIE_CHART:
+			this._chart = new PieChart(grammarParser.datasource)
+			break
+
+		case ChartType.COMBINATION_CHART:
+			throw new InvalidOperationError()
+			// this._chart = new CombinationChart(grammarParser.datasource)
+			// break
+
+		case ChartType.MULTIPLE_XY_LINE_CHART:
+			this._chart = new MultipleXYLineChart(grammarParser.datasource)
+			break
+
+		case ChartType.AREA_CHART:
+			this._chart = new AreaChart(grammarParser.datasource)
+			break
+
+		case ChartType.STACKED_BAR_CHART:
+			this._chart = new StackedBarChart(grammarParser.datasource)
+			break
+
+		case ChartType.DONUT_CHART:
+			this._chart = new DonutChart(grammarParser.datasource)
+			break
+
+		case ChartType.SPLINE_CHART:
+			this._chart = new SplineChart(grammarParser.datasource)
+			break
+
+		case ChartType.LINE_CHART_WITH_REGIONS:
+			throw new InvalidOperationError()
+			// this._chart = new LineChartWithRegions(grammarParser.datasource)
+			// break
+
+		case ChartType.STACKED_AREA_CHART:
+			this._chart = new StackedAreaChart(grammarParser.datasource)
+			break
+
+		case ChartType.SCATTER_PLOT:
+			this._chart = new ScatterPlot(grammarParser.datasource)
+			break
+
+		case ChartType.GAUGE_CHART:
+			throw new InvalidOperationError()
+			// this._chart = new GaugeChart(grammarParser.datasource)
+			// break
+		}
+	}
+
+	do(grammar) {
+		return this._chart.do(grammar)
+	}
+
+	generateJson() {
+		return this._chart.generateJson()
+	}
+}
+
+class GrammarParser {
+
+	constructor(grammar) {
+		this.grammar = grammar
+		this.chartType = undefined
+		this.datasource = undefined
+
+		// Verify the basic structure of the grammar
+		if (GrammarParser.verifyStructure(grammar)) {
+			let chartTypeExtract = grammar.match(new RegExp(&apos;generate [A-Z_]+ for&apos;))[0]
+			this.chartType = chartTypeExtract.slice(9, chartTypeExtract.length - 4)
+			this.datasource = grammar.match(new RegExp(&apos;for {.*}&apos;))[0].slice(4)
+
+			// Verify the chart type and the datasource
+			if (!GrammarParser.verifyChartType(this.chartType) || !GrammarParser.verifyDatasource(this.datasource)) {
+				throw new InvalidGrammarError()
+			}
+		} else {
+			throw new InvalidGrammarError()
+		}
+	}
+
+	static verifyStructure(grammar) {
+		return grammar.match(new RegExp(&apos;generate [A-Z_]+ for {.*}&apos;))
+	}
+
+	static verifyChartType(chartType) {
+		return ChartType.enumValueOf(chartType) instanceof ChartType
+	}
+
+	// eslint-disable-next-line no-unused-vars
+	static verifyDatasource(grammar) {
+		// TODO : Verify datasource
+		return true
+	}
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
