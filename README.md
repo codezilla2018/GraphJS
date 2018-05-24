@@ -33,7 +33,7 @@ In a browser:
 
 1) Initialize a chart using the Graph class
 ```
-let chart = new Graph("generate <CHART_TYPE> from <JSON_DATASOURCE>")
+let chart = new Graph("generate <CHART_TYPE> for <JSON_DATASOURCE>")
 ```
 
 Chart type can be any one of,
