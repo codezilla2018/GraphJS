@@ -11,7 +11,7 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "webpack": "webpack",
     "babel": "babel --presets es2015 src --out-dir dist/src",
-    "esdoc": "esdoc && cp -r ./dist/docs ./docs"
+    "esdoc": "rm -rf dist/docs && esdoc && rm -rf docs && cp -r ./dist/docs ./"
   },
   "repository": {
     "type": "git",
