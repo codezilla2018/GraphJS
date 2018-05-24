@@ -26,13 +26,48 @@ In a browser:
 
 Using npm:
 ```shell
-$ npm i -g npm
 $ npm i --save @ivantha/graphjs
 ```
 
 ### Usage
 
-XXXXXXXXXXXXXXXXXXXXX
+1) Initialize a chart using the Graph class
+```
+let chart = new Graph("generate <CHART_TYPE> from <JSON_DATASOURCE>")
+```
+
+Chart type can be any one of,
+- LINE_CHART
+- SIMPLE_XY_LINE_CHART
+- STEP_CHART
+- BAR_CHART
+- PIE_CHART
+- COMBINATION_CHART
+- MULTIPLE_XY_LINE_CHART
+- AREA_CHART
+- STACKED_BAR_CHART
+- DONUT_CHART
+- SPLINE_CHART
+- LINE_CHART_WITH_REGIONS
+- STACKED_AREA_CHART
+- SCATTER_PLOT
+- GUAGE_CHART
+
+2) Modify your chart using the suitable grammar
+```
+chart.do("hide tooltip")
+chart.do('set gridline x at 20 as another-x')
+```
+
+3) Export the JSON string of the chart using,
+```
+let jsonOut = chart.generateJson()
+```
+
+4) Generated JSON output is fully complient with the C3.js library
+```
+let chart = c3.generate(jsonOut)
+```
 
 ## Development
 
