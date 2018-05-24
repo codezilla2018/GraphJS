@@ -5,7 +5,7 @@
   "main": "build/bundle.min.js",
   "scripts": {
     "clean": "rm -rf dist/* && rm -rf docs/*",
-    "test": "nyc --reporter=html --reporter=text mocha --require babel-core/register test/**/*.spec.js",
+    "test": "nyc --reporter=html --reporter=text mocha --require babel-core/register test/**/*.spec.js test/**/**/*.spec.js",
     "build": "npm run clean && npm run babel && npm run webpack && npm run esdoc",
     "dev": "npm run clean && npm run babel && npm run webpack",
     "coverage": "nyc report --reporter=text-lcov | coveralls",

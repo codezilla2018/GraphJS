@@ -81,8 +81,8 @@ export default class Chart {
 	}
 
 	/**
-	 * Alter the parameters of the chart using the provided grammar.
-	 * @param {string} grammar - Simple grammar string describing the chart.
+	 * Alter the parameters of the charts using the provided grammar.
+	 * @param {string} grammar - Simple grammar string describing the charts.
 	 * @returns {boolean} - Returns true if the grammar is parsed.
 	 */
 	do(grammar) {
@@ -101,12 +101,12 @@ export default class Chart {
 			let label = grammar.match(new RegExp('as [0-9a-zA-Z\\-]+'))[0].split(' ')[1]
 			if (axis.toLowerCase() === 'x') {
 				this._outputJson.grid.x.lines.push({
-					'value': position,
+					'value': Number(position),
 					'text': label
 				})
 			} else {
 				this._outputJson.grid.y.lines.push({
-					'value': position,
+					'value': Number(position),
 					'text': label
 				})
 			}
@@ -195,7 +195,7 @@ export default class Chart {
 	}
 
 	/**
-	 * Return the JSON output string of the constructed chart.
+	 * Return the JSON output string of the constructed charts.
 	 * @returns {string}
 	 */
 	generateJson() {
