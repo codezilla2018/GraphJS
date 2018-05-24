@@ -19,14 +19,14 @@ GraphJS is released under the [MIT license](https://raw.githubusercontent.com/co
 
 ### Installation
 
-In a browser:
-```html
-<script src="graphjs.min.js"></script>
-```
-
 Using npm:
 ```shell
 $ npm i --save @ivantha/graphjs
+```
+
+In a browser:
+```html
+<script src="node_modules/@ivantha/graphjs/dist/browser/graphjs.min.js"></script>
 ```
 
 ### Usage
