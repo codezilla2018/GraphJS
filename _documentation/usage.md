@@ -25,7 +25,7 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-      let chart = new Graph("generate <CHART_TYPE> from <JSON_DATASOURCE>")
+      let chart = new Graph("generate <CHART_TYPE> for <JSON_DATASOURCE>")
       chart.getOutputJson()
     title: Initialize a chart using the graph object
     language: javascript
