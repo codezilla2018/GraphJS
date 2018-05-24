@@ -34,6 +34,21 @@ describe('SimpleXYLineChart', function () {
 	})
 
 	/**
+	 * Test to check the do function behaviour with invalid data
+	 * @test {AreaChart#do}
+	 */
+	describe('do', function () {
+		it('should throw an InvalidGrammarError', function () {
+			delete simple_xy_line_chart_data['default']
+			let chart = new SimpleXYLineChart(JSON.stringify(simple_xy_line_chart_data))
+
+			assert.throw(function () {
+				chart.do('')
+			})
+		})
+	})
+
+	/**
 	 * Test to check the do "X axis data label" function behaviour with valid data
 	 * @test {SimpleXYLineChart#do}
 	 */

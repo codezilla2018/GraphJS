@@ -34,6 +34,21 @@ describe('DonutChart', function () {
 	})
 
 	/**
+	 * Test to check the do function behaviour with invalid data
+	 * @test {DonutChart#do}
+	 */
+	describe('do', function () {
+		it('should throw an InvalidGrammarError', function () {
+			delete donut_chart_data['default']
+			let chart = new DonutChart(JSON.stringify(donut_chart_data))
+
+			assert.throw(function () {
+				chart.do('')
+			})
+		})
+	})
+
+	/**
 	 * Test to check the do "Set title" function behaviour with valid data
 	 * @test {DonutChart#do}
 	 */

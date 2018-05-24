@@ -34,6 +34,21 @@ describe('StepChart', function () {
 	})
 
 	/**
+	 * Test to check the do function behaviour with invalid data
+	 * @test {StepChart#do}
+	 */
+	describe('do', function () {
+		it('should throw an InvalidGrammarError', function () {
+			delete step_chart_data['default']
+			let chart = new StepChart(JSON.stringify(step_chart_data))
+
+			assert.throw(function () {
+				chart.do('')
+			})
+		})
+	})
+
+	/**
 	 * Test to check the do "" function behaviour with valid data
 	 * @test {StepChart#do}
 	 */

@@ -26,7 +26,7 @@ export default class StackedAreaChart extends Chart {
 				this._outputJson.data.types[areaSplineDataLabel] = 'area-spline'
 				return true
 			} else if (grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as area'))) {
-				let areaDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as spline'))[0].split(' ')[1]
+				let areaDataLabel = grammar.match(new RegExp('where [0-9a-zA-Z\\-]+ as area'))[0].split(' ')[1]
 				this._outputJson.data.types[areaDataLabel] = 'area'
 				return true
 			} else if (grammar.match(new RegExp('group [0-9a-zA-Z\\-]+[\\s]*(,[\\s]*)+[0-9a-zA-Z\\-]+'))) {

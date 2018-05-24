@@ -34,6 +34,21 @@ describe('MultipleXYLineChart', function () {
 	})
 
 	/**
+	 * Test to check the do function behaviour with invalid data
+	 * @test {MultipleXYLineChart#do}
+	 */
+	describe('do', function () {
+		it('should throw an InvalidGrammarError', function () {
+			delete multiple_xy_line_chart_data['default']
+			let chart = new MultipleXYLineChart(JSON.stringify(multiple_xy_line_chart_data))
+
+			assert.throw(function () {
+				chart.do('')
+			})
+		})
+	})
+
+	/**
 	 * Test to check the do "Axis data mapping" function behaviour with valid data
 	 * @test {MultipleXYLineChart#do}
 	 */

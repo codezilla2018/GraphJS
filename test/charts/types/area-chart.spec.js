@@ -34,6 +34,21 @@ describe('AreaChart', function () {
 	})
 
 	/**
+	 * Test to check the do function behaviour with invalid data
+	 * @test {AreaChart#do}
+	 */
+	describe('do', function () {
+		it('should throw an InvalidGrammarError', function () {
+			delete area_chart_data['default']
+			let chart = new AreaChart(JSON.stringify(area_chart_data))
+
+			assert.throw(function () {
+				chart.do('')
+			})
+		})
+	})
+
+	/**
 	 * Test to check the do "Area type" function behaviour with valid data
 	 * @test {AreaChart#do}
 	 */

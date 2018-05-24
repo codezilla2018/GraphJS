@@ -34,6 +34,21 @@ describe('StackedAreaChart', function () {
 	})
 
 	/**
+	 * Test to check the do function behaviour with invalid data
+	 * @test {StackedAreaChart#do}
+	 */
+	describe('do', function () {
+		it('should throw an InvalidGrammarError', function () {
+			delete stacked_area_chart_data['default']
+			let chart = new StackedAreaChart(JSON.stringify(stacked_area_chart_data))
+
+			assert.throw(function () {
+				chart.do('')
+			})
+		})
+	})
+
+	/**
 	 * Test to check the do "" function behaviour with valid data
 	 * @test {StackedAreaChart#do}
 	 */
@@ -42,7 +57,7 @@ describe('StackedAreaChart', function () {
 			delete stacked_area_chart_data['default']
 			let chart = new StackedAreaChart(JSON.stringify(stacked_area_chart_data))
 			chart.do('where data1 as area-spline')
-			chart.do('where data2 as area-spline')
+			chart.do('where data2 as area')
 			chart.do('group data1, data2')
 
 			assert.equal(JSON.stringify(chart.generateJson()), JSON.stringify({
@@ -57,7 +72,7 @@ describe('StackedAreaChart', function () {
 					'names': {},
 					'types': {
 						'data1': 'area-spline',
-						'data2': 'area-spline'
+						'data2': 'area'
 					},
 					'groups': [['data1', 'data2']],
 					'type': undefined,

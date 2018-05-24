@@ -34,6 +34,21 @@ describe('BarChart', function () {
 	})
 
 	/**
+	 * Test to check the do function behaviour with invalid data
+	 * @test {BarChart#do}
+	 */
+	describe('do', function () {
+		it('should throw an InvalidGrammarError', function () {
+			delete bar_chart_data['default']
+			let chart = new BarChart(JSON.stringify(bar_chart_data))
+
+			assert.throw(function () {
+				chart.do('')
+			})
+		})
+	})
+
+	/**
 	 * Test to check the do "" function behaviour with valid data
 	 * @test {BarChart#do}
 	 */
