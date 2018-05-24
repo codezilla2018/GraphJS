@@ -1,5 +1,5 @@
 ---
-title: Hide Points
+title: Optional Grid Lines
 position:
 parameters:
   - name:
@@ -11,18 +11,20 @@ left_code_blocks:
       {
           "data": {
               "columns": [
-                  ["data1", 30, 200, 100, 400, 150, 250],
-                  ["data2", 50, 20, 10, 40, 15, 25]
+                  ["sample", 30, 200, 100, 400, 150, 250]
               ]
           },
-          "point": {
-              "show": true
+         "grid": {
+              "x": {
+                  "lines": [
+                  ]
+              }
           }
       }
     title: Input JSON
     language: json
   - code_block: |-
-      chart.do('hide points')
+      chart.do('set gridline x at 20 as another-x')
     title: Config
     language: javascript
 
@@ -31,12 +33,15 @@ right_code_blocks:
       {
           "data": {
               "columns": [
-                  ["data1", 30, 200, 100, 400, 150, 250],
-                  ["data2", 50, 20, 10, 40, 15, 25]
+                  ["sample", 30, 200, 100, 400, 150, 250]
               ]
           },
-          "point": {
-              "show": false
+          "grid": {
+              "x": {
+                  "lines": [
+                      {"value": 20, "text": "another-x"}
+                  ]
+              }
           }
       }
     title: Output
