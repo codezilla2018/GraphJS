@@ -1,7 +1,7 @@
 import ExtendableError from 'es6-error'
 
 /**
- * Thrown when the grammar is invalid
+ * Thrown when the grammar is invalid.
  */
 export default class InvalidGrammarError extends ExtendableError {
 

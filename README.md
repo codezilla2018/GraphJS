@@ -15,7 +15,9 @@ The [GraphJS](xxx) library is exported as a [UMD](https://github.com/umdjs/umd) 
 
 GraphJS is released under the [MIT license](https://raw.githubusercontent.com/codezilla2018/GraphJS/master/LICENSE) & supports modern environments.<br>
 
-### Installing
+## Gettings Started
+
+### Installation
 
 In a browser:
 ```html
@@ -28,6 +30,12 @@ $ npm i -g npm
 $ npm i --save @ivantha/graphjs
 ```
 
+### Usage
+
+XXXXXXXXXXXXXXXXXXXXX
+
+## Development
+
 #### NPM scripts
 
  - `npm run esdoc`: Generate documentation
@@ -39,6 +47,7 @@ $ npm i --save @ivantha/graphjs
 
 ### Built With
 
+* [ES6]()
 * [Babel](https://babeljs.io/) 
 * [Webpack](https://webpack.js.org/) 
 * [ESLint](https://eslint.org/) 

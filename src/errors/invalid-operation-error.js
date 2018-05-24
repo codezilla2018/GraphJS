@@ -1,7 +1,7 @@
 import ExtendableError from 'es6-error'
 
 /**
- * Thrown when the operation called for was not implemented / relevant for the context
+ * Thrown when the operation called for was not implemented / relevant for the context.
  */
 export default class InvalidOperationError extends ExtendableError {
 

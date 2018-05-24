@@ -1,5 +1,9 @@
 export default class Chart {
 
+	/**
+	 * Creates an instance of the Chart class
+	 * @param {string} data - JSON string containing the data columns.
+	 */
 	constructor(data) {
 		this._data = data
 
@@ -76,6 +80,11 @@ export default class Chart {
 		}
 	}
 
+	/**
+	 * Alter the parameters of the chart using the provided grammar.
+	 * @param {string} grammar - Simple grammar string describing the chart.
+	 * @returns {boolean} - Returns true if the grammar is parsed.
+	 */
 	do(grammar) {
 		if (grammar.match(new RegExp('(show|hide) grid [xXyY]'))) {
 			let option = grammar.match(new RegExp('(show|hide)'))[0]
@@ -185,6 +194,10 @@ export default class Chart {
 		}
 	}
 
+	/**
+	 * Return the JSON output string of the constructed chart.
+	 * @returns {string}
+	 */
 	generateJson() {
 		return this._outputJson
 	}
